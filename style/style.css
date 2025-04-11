@@ -25,7 +25,7 @@ html {
     letter-spacing: 1px;
   }
   html {
-    background-color: #aec5d9;
+    background-color: #d9aed7;
   }
   h1,h2 {
     margin: 0;
@@ -36,5 +36,5 @@ html {
   img {
     display: block;
     margin: 0 auto;
-    max-width: 40%;
+    max-width: 60%;
   }
