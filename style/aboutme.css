@@ -1,0 +1,91 @@
+::before,
+::after {
+        box-sizing: border-box;
+}
+
+body {
+        background: aliceblue;
+        font-family: "Rokkitt", serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+}
+
+/*
+#firstphoto,
+#thirdphoto {
+        height: 400px;
+        width: 300px;
+        border-style: outset;
+        border-color: blueviolet;
+        padding-bottom: 40px;
+        margin-bottom: 20px;
+}*/
+.figure {
+        border: thin #c0c0c0 solid;
+        /* display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row; */
+        width: 300px;
+        height: 400px;
+        border-style: solid;
+        box-shadow: 2px 2px 2px #000;
+
+        padding: 5px;
+
+
+}
+
+#firstphoto,
+#thirdphoto {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 300px;
+        box-shadow: 2px 2px 5px #000;
+        height: 400px;
+
+        border-style: solid;
+
+
+}
+
+.whoami {
+        background: #C1FBA4;
+        border-color: #8fee50;
+        border-style: solid;
+        box-shadow: 2px 2px 2px #000;
+        border-radius: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+}
+
+figcaption {
+        background-color: #d8d6d6;
+        color: #121e13;
+        padding: 3px;
+        text-align: center;
+        width: 297px;
+        box-shadow: 2px 2px 2px #000;
+}
+
+.self {
+        margin: 40px, 20px, 20px, 40px;
+        text-align: left;
+        padding-left: 10px;
+        border-radius: 10px;
+        padding-right: 15px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        box-shadow: 2px 2px 10px #000;
+        background-color: rgb(232, 255, 246);
+}
+
+/*
+.aboutme {
+        display: flex;
+        flex-direction: column;
+}
+*/

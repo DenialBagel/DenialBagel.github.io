@@ -1,0 +1,60 @@
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+.bottoms {
+    /* display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row; */
+    font-family: "Rokkitt", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.card,
+.contact {
+    color: #222222;
+    background: #e4c1f9;
+    /* background: #C1FBA4; */
+    width: 90%;
+    border-radius: 5px;
+    height: 120px;
+    margin-top: 50px;
+
+    margin-left: auto;
+    margin-right: auto;
+    border-color: yellow;
+    border-style: style;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 2px 2px 3px #000;
+
+}
+
+
+
+
+#intro {
+    display: flex;
+    text-align: left;
+    margin: 10px, 5px, 10px, 5px;
+
+
+}
+
+#kid {
+    width: 90px;
+    max-width: 200px;
+    margin-left: 10px;
+    border-style: dotted;
+    border-color: #222222;
+}
+
+#contact.text {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}

@@ -1,0 +1,37 @@
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+.title {
+    font-size: 25px;
+}
+
+body {
+
+
+    background: aliceblue;
+    font-family: "Rokkitt", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
+
+#screenshot {
+    width: 200px;
+
+    border-color: rgb(162, 220, 138);
+    box-shadow: 2px 2px 5px #000;
+    border-style: solid;
+}
+
+.content {
+    background: #d7f9c7;
+    border-color: #8fee50;
+    border-style: solid;
+    box-shadow: 2px 2px 2px #000;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    --s: 100px;
+}
