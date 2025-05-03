@@ -1,0 +1,25 @@
+{
+  "name": "denialbagel.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DenialBagel/DenialBagel.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DenialBagel/DenialBagel.github.io/issues"
+  },
+  "homepage": "https://github.com/DenialBagel/DenialBagel.github.io#readme",
+  "description": "",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}

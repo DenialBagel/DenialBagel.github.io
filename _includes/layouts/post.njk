@@ -1,0 +1,17 @@
+---
+layout: layouts/base.njk
+---
+
+<section class="content">
+    <div class="head">
+        <h1 class="title">{{ title }}</h1>
+        <h2 class="namedate">{{ date }} | {{- metadata.author.name -}}</h2>
+    </div>
+
+    <div class="self">
+        {{ content | safe }}
+    </div>
+
+    <h1 id="back"><a href="blog.html" target=>back</a></h1>
+    <h2 id="related">read related posts</h2>
+</section>
