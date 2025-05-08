@@ -1,0 +1,35 @@
+html {
+    background: aliceblue;
+    font-family: "Rokkitt", serif;
+
+}
+
+.main {}
+
+/* 
+.intro {
+    background-color: #C1FBA4;
+    border: 1px solid #acfd96;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 2px 2px 0px #000;
+    font-family: "Rokkitt", serif;
+} */
+
+.so {
+
+    background: aliceblue;
+
+    padding-top: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-left: 5px;
+    border-style: double;
+    border-color: #c1f1fb;
+    border-radius: 2px;
+    border-width: 6px;
+}

@@ -1,0 +1,40 @@
+p {
+  color: blue;
+}
+
+li {
+    color: yellow;
+}
+
+h1 {color:aquamarine}
+
+html {
+    font-size: 20px; 
+    font-family:
+      "Lilita One", sans-serif; 
+  }
+  h1 {
+    font-size: 80px;
+    text-align: center;
+  }
+  
+  p,
+  li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+  }
+  html {
+    background-color: #d9aed7;
+  }
+  h1,h2 {
+    margin: 0;
+    padding: 20px 0;
+    color: #009f1d;
+    text-shadow: 3px 3px 1px black;
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 60%;
+  }
