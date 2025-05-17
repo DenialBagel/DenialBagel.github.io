@@ -1,7 +1,8 @@
 ---
 title: Raft
 date: 2022-02-15
-layout: post.njk
+tags:
+  - "shower thoughts"
 ---
 
 Sometimes i feel like im

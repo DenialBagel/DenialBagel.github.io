@@ -1,0 +1,13 @@
+<div class="post">
+  <a class="link" href="{{ post.url }}">
+    <h2>{{ post.data.title }}</h2>
+    <h3 class="date">{{ post.data.date | postDate }}</h3>
+    <p class="taggie">
+      {% for tag in post.data.tags %}
+      {% if tag !== "posts" %}
+      #{{ tag }}
+      {% endif %}
+      {% endfor %}
+    </p>
+  </a>
+</div>

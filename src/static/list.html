@@ -2,57 +2,62 @@
 <html lang="en">
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style/header.css" />
-    <link rel="stylesheet" href="/style/post.css" />
+
+    <link rel="stylesheet" href="/style/blog.css" />
+  
     <link rel="stylesheet" href="/style/footer.css" />
+
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css2?family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <title>{{ title }} Post - Denial Bagel</title>
+    <title>Lists - Denial Bagel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
     <div id="hero">
         <div class="top">
             <h1> DenialBagel.com</h1>
-            <h3>Rachel Yu's digital garden</h3>
+            <h3 id="garden">Rachel Yu's digital garden</h3>
 
             <div class="menubar">
+
                 <div class="item"><a class="link" href="/index.html" target=>Home</a></div>
                 <div class="item"><a class="link" href="/static/aboutme/index.html" target=>About me</a></div>
-                <div class="item active"><a class="link" href="/static/blog/index/.html" target=>Blog</a></div>
-                <div class="item"><a class="link" href="/static/espanol/index.html" target=>Español</a></div>
-                <div class="item"><a class="link" href="/static/website/index.html" target=>website</a></div>
+                <div class="item"><a class="link" href="/static/blog/index.html" target=>Blog</a></div>
+
+
+                <div class="item"><a class="link" href="/static/language/index.html" target=>languages</a></div>
+                <div class="item"><a class="link" href="/static/website/index.html" target=>Website</a></div>
                 <div class="item"><a class="link" href="/static/travels/index.html" target=>travels</a></div>
+                <div class="item active"><a class="link" href="/static/list/index.html" target=>lists</a></div>
+
 
             </div>
         </div>
     </div>
-    <section class="content">
+    <div class="blogintro">
+        <p>My digital treasure boxes</p>
+    </div>
+    <div class="linkgarden"><a class="link" href="/static/linkgarden/index.html">
+        <h2 class="listtitle">Friends who create</h2>
+        <h2 class="listtitle">Books</h2>
+        
 
-        <h1 class="title">{{title}}</h1>
-        <h2 class="namedate">{{date| postDate}} | Rachel Yu</h2>
-        <h1 class="location">{{location}}</h1>
-        </div>
-        <div>
-            {{ content | safe }}
-        </div>
-
-    </section>
-
-    <h2 class="button back"><a href="/static/blog/index.html" target=>back</a></h2>
-    <h2 class="related">read related posts</h2>
+    
+    </a>
+</div>
     <section class="bottoms">
         <footer class="card">
             <img id="kid" src="/foto/IMG_6716.jpg" alt="kid" />
-            <p id="intro">Hi there! My name is Rachel. I was born in 03'. I am based Hong Kong.</p>
+            <p id="intro">Hi there! My name is Rachel. I was born in 03'. I am from Hong Kong.</p>
         </footer>
         <footer class="contact">
-            <div id="contact.text>">
-                <h2 id="contact.title">Get in touch!</h2>
+            <div id="text>">
+                <h2 id="title">Get in touch!</h2>
                 <div> <a id="email" href="mailto:yuhoilamrachel@gmail.com">email</a></div>
                 <div>
                     <a id="insta" href="https://www.instagram.com/1.step_closer/">instagram</a>

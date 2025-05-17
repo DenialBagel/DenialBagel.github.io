@@ -1,7 +1,8 @@
 ---
 title: My friend’s sketchbook
 date: 2025-05-05
-layout: post.njk
+tags:
+  - "friends"
 ---
 
 A very close friend of mine, who’s also a backpacker, have some stuff stored in my home in Hong Kong.

@@ -1,0 +1,31 @@
+---
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  addAllPagesToCollections: true
+layout: layouts/base.html
+permalink: /blog/tag/{{ tag | slugify }}/index.html
+eleventyComputed:
+  title: Posts Tagged with "{{tag}}"
+---
+<link rel="stylesheet" href="/style/blog.css" />
+<div class="tagmenu">
+
+  <div class="hashtag active"><a class="link" href="/static/blog/index.html">all</a></div>
+      <div class="hashtag"><a class="link" href="/blog/tag/languages/index.html">languages</a> </div>
+           <div class="hashtag"><a class="link" href="/blog/tag/travels/index.html">travels</a> </div>
+              <div class="hashtag"><a class="link" href="/blog/tag/central-america/index.html">central america</a></div>
+
+</div>
+<h1 class="tag">
+ More of {{ tag }}
+</h1>
+
+
+  {% for post in collections[tag] %}
+    {% include "postslistitem.njk" %}
+  {% endfor %}
+
+  <h2 class="hashtag"><a  class="link" href="/static/blog/index.html">back to all</a></h2>
+  

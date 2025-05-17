@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="/style/header.css">
+    <link rel="stylesheet" href="/style/blog.css">
+    <link rel="stylesheet" href="/style/footer.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div id="hero">
+        <div class="top">
+            <h1> DenialBagel.com</h1>
+            <h3 id="garden">Rachel Yu's digital garden</h3>
+
+            <div class="menubar">
+
+                <div class="item"><a class="link" href="/index.html" >Home</a></div>
+                <div class="item"><a class="link" href="/static/aboutme/index.html" >About me</a></div>
+                <div class ="item active"><a class="link" href="/static/blog/index.html" >blog</a></div>
+                <div class="item"><a class="link" href="/static/language/index.html" >languages</a></div>
+                <div class="item"><a class="link" href="/static/website/index.html" >website</a></div>
+                <div class="item"><a class="link" href="/static/travels/index.html">travels</a></div>
+
+
+            </div>
+        </div>
+    </div>
+
+  {% block content %}
+    {{ content | safe }}
+  {% endblock %}
+
+
+</body>
+</html>

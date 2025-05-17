@@ -2,7 +2,9 @@
 title: New Year’s Eve 2025
 date: 2025-01-03
 location: Ometepe Island, Nicaragua
-layout: post.njk
+tags:
+  - "travels"
+  - "central america"
 ---
 
 I am invited by my local friend Carlos and his lovely family to spend new year's eve with them in their house.

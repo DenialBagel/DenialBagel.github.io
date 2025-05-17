@@ -90,7 +90,7 @@ body {
     font-style: normal;
 } */
 
-.menubar {
+.menubar, .tagmenu {
     background-color: #f8f894;
     border: 1px solid #fdfd96;
     padding: 0.1rem;
@@ -107,6 +107,7 @@ body {
 
 
 .item {
+    font-family: "Rokkitt", serif;
     display: inline-block;
     padding: 10px 20px;
     background-color: #90F1EF;

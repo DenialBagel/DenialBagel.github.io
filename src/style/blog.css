@@ -1,4 +1,4 @@
-.blogintro {
+.blogintro, .tag {
     background-color: #C1FBA4;
     border: 1px solid #acfd96;
     border-radius: 5px;
@@ -7,9 +7,11 @@
     text-align: left;
     font-size: 20px;
     font-weight: bold;
+    text-align: center;
     box-shadow: 2px 2px 0px #000;
     font-family: "Rokkitt", serif;
 }
+
 
 html {
     background: aliceblue;
@@ -21,7 +23,7 @@ html {
 }
 
 
-.post {
+.post, .postname {
     text-decoration: none;
     font-family: "Rokkitt", serif;
     margin-top: 10px;
@@ -31,9 +33,34 @@ html {
     font-size: 20px;
     /* margin-top: 30px; */
     border-radius: 5px;
+
     border-style: style;
     align-items: center;
     padding: 5px;
     /* gap: 20px; */
     box-shadow: 2px 2px 0px #000;
+}
+
+li{
+    margin-top: 30px;
+    list-style-type:none;
+}
+
+.hashtag{
+    font-family: "Rokkitt", serif;
+    display: inline-block;
+    padding: 7px 17px;
+    background-color: #e4c1f9;
+    color: #000;
+    box-shadow: 2px 2px 0px #000;
+    align-items:center;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid #000000;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    transition: box-shadow 0.2s ease, transform 0.1s ease;
 }

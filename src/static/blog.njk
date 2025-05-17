@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="/style/header.css" />
+
+    <link rel="stylesheet" href="/style/blog.css" />
+    <link rel="stylesheet" href="/style/footer.css" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Blog - Denial Bagel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div id="hero">
+        <div class="top">
+            <h1> DenialBagel.com</h1>
+            <h3 id="garden">Rachel Yu's digital garden</h3>
+
+            <div class="menubar">
+
+                <div class="item"><a class="link" href="/index.html" >Home</a></div>
+                <div class="item"><a class="link" href="/static/aboutme/index.html" >About me</a></div>
+                <div class="item active"><a class="link" href="/static/blog/index.html" >Blog</a></div>
+
+
+                <div class="item"><a class="link" href="/static/language/index.html" >languages</a></div>
+                <div class="item"><a class="link" href="/static/website/index.html" >website</a></div>
+                <div class="item"><a class="link" href="/static/travels/index.html" >travels</a></div>  <div class="item"><a class="link" href="/static/list/index.html" target=>lists</a></div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="blogintro">
+        <p>Take a deep breath before diving into Rachel's cursed thoughts...</p>
+    </div>
+
+    <div class="tagmenu">
+
+        <div class="hashtag active"><a class="link" href="/static/blog/index.html">all</a></div>
+            <div class="hashtag"><a class="link" href="/blog/tag/languages/index.html">languages</a> </div>
+                 <div class="hashtag"><a class="link" href="/blog/tag/travels/index.html">travels</a> </div>
+                    <div class="hashtag"><a class="link" href="/blog/tag/central-america/index.html">central america</a></div>
+     
+    </div>
+      
+    <section class="posts">
+        {% set postslist = collections.posts %}
+        {% include "postslist.njk" %}
+    </section>
+
+    <section class="bottoms">
+        <footer class="card">
+            <img id="kid" src="/foto/IMG_6716.jpg" alt="kid" />
+            <p id="intro">Hi there! My name is Rachel. I was born in 03'. I am from Hong Kong.</p>
+        </footer>
+        <footer class="contact">
+            <div id="text>">
+                <h2 id="title">Get in touch!</h2>
+                <div> <a id="email" href="mailto:yuhoilamrachel@gmail.com">email</a></div>
+                <div>
+                    <a id="insta" href="https://www.instagram.com/1.step_closer/">instagram</a>
+                </div>
+            </div>
+        </footer>
+    </section>
+</body>
+
+</html>

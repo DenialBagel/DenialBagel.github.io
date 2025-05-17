@@ -2,7 +2,9 @@
 title: Waves
 date: 2025-03-09
 location: La Libertad, El Salvador
-layout: post.njk
+tags:
+  - "travels"
+  - "central america"
 ---
 
 When I was in the ocean, faced with a giant wave, I had no choice but to dive in and take whatever it gave me.
