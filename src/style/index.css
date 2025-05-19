@@ -82,6 +82,18 @@ h1 {
 
 h3 {
   font-size: clamp(30px, 7vw, 8vw);
-  text-decoration-line: underline;
   margin-top: 0px;
+}
+.blogintro {
+  background-color: #C1FBA4;
+  border: 1px solid #acfd96;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  padding-left: 20px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 2px 2px 0px #000;
+  font-family: "Rokkitt", serif;
 }

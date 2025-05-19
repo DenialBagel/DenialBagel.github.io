@@ -4,18 +4,18 @@ date: 2025-05-11
 tags:
   - "languages"
 ---
-1. Comprehensive input
+<h2> Comprehensive input</h2>
 
 I only consume content for entertainment in Spanish. Be it Netflix, Youtube, songs etc. Obviously I still read and watch some YouTube in English, but that’s for topics that I would not be able to fully comprehend in Spanish. 
 In fact, I set this rule for myself when I was trying to improve my English, and the habit never left me, therefore I almost never consume content in Cantonese. 
 
-1. Daily entry
+<h2> Daily entry</h2>
 
 I do an entry of Spanish content every day on notion. The piece and nature of content varies every day, Ranging from YouTube videos, news articles, podcasts, or even voice notes from friends. The idea is that every day I can dive deep into a particular topic, and all the words and phrases related to it.
 
 Note that I do not include every single words I don’t know into my daily entry. I only choose the ones that I can see myself using. For example, in an article that I was reading about movies, there was the word ‘Estrenar’ which means to premiere in Spanish. Now, I don’t think I have ever even used this word in English, so I see no point of noting this word down in my entry. It goes into the ‘Good to know’  category of my brain. 
 
-1. Anki
+<h2> Anki</h2>
 
 One of the most integral tool for my journey to fluency. There are 3 main ways with which I utilize the flashcard system. Almost all of the materials are extracted from my daily entry.
 
@@ -26,16 +26,22 @@ With nouns, I try not to translate. Whenever possible the front of the flashcard
 b. useful phrases
 
 There is a feature on Anki called Cloze, which is basically fill in the blanks. This helps me tremendously with useful expressions. Below is an example.
+<figure>
 
+  <img
+    src="/foto/ankixmp.png"
+    alt="Anki example" />
+
+</figure>
 c. grammar/tenses
 
 I have given up on textbook style grammar drills. Instead, I use contextualized sentences to learn grammar and tenses, which in Spanish can be a handful. 
 
-1. reading
+<h2>reading</h2>
 
 Reading for pleasure is sacred to me. While I diligently make daily entries for most Spanish content, I keep my fiction reading separate. I prefer to enjoy my romance novels before bed without the need to document new words or phrases I encounter.
 
-1. practice practice practice
+<h2> practice practice practice</h2>
 
 a. I write in Spanish every day in my journal. At the first few months of my learning journey I would simply describe my day, what I did, concrete things. Though as I advance I started writing about my feelings and deeper thoughts in Spanish, just like I would in English. The idea is to gradually replace English with Spanish  in my journal, and thus train my brain to think in Spanish.
 
@@ -45,11 +51,11 @@ I also have an online Spanish teacher, with whom I discuss the topics from my da
 
 c. On days when I don't have Spanish conversations with friends or my teacher, I make a 10-minute recording of myself speaking Spanish. I then review the recording to identify moments where I hesitate or struggle to find words, and add the correct words to my daily entry. Recording yourself, although at first might feel unnatural, is the single most effective way to find out the gaps of your knowledge. Remember, no one has to see your videos if you don’t want them to be seen!
 
-1. resources I use
+<h2>resources I use</h2>
 
 It’s impossible to list everything, I am a frequent consumer of:
 
-1. YouTube:
+a. YouTube:
 
 Spanish After Hours- Love her slow Spanish series, suitable for beginners
 

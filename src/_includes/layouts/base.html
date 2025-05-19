@@ -21,12 +21,20 @@
 
             <div class="menubar">
 
-                <div class="item"><a class="link" href="/index.html" >Home</a></div>
-                <div class="item"><a class="link" href="/static/aboutme/index.html" >About me</a></div>
-                <div class ="item active"><a class="link" href="/static/blog/index.html" >blog</a></div>
-                <div class="item"><a class="link" href="/static/language/index.html" >languages</a></div>
-                <div class="item"><a class="link" href="/static/website/index.html" >website</a></div>
-                <div class="item"><a class="link" href="/static/travels/index.html">travels</a></div>
+                <a class="link" href="/index.html"><div class="item">Home</div></a>
+
+                <a class="link" href="/static/aboutme/index.html" ><div class="item">About me</div></a>
+                
+               <a class="link" href="/static/blog/index.html"> <div class="item blog">blog</div></a>
+
+               <a class="link" href="/static/language/index.html" > <div class="item ">languages</div></a>
+
+                <a class="link" href="/static/website/index.html"><div class="item">website</div></a>
+
+               <a class="link" href="/static/list/index.html" ><div class="item">lists</div></a>
+
+               <a class="link" href="/static/travels/index.html"> <div class="item">travels</div></a>
+            
 
 
             </div>
@@ -37,6 +45,8 @@
     {{ content | safe }}
   {% endblock %}
 
-
+<section class="bottoms">
+    {% include "footer.njk" %}
+</section>
 </body>
 </html>

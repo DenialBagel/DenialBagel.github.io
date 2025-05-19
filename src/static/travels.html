@@ -24,22 +24,30 @@
 
             <div class="menubar">
 
-                <div class="item"><a class="link" href="/index.html" target=>Home</a></div>
-                <div class="item"><a class="link" href="/static/aboutme/index.html" target=>About me</a></div>
-                <div class="item"><a class="link" href="/static/blog/index.html" target=>blog</a></div>
+                <a class="link" href="/index.html"><div class="item">Home</div></a>
+
+                <a class="link" href="/static/aboutme/index.html" ><div class="item">About me</div></a>
+                
+               <a class="link" href="/static/blog/index.html"> <div class="item">blog</div></a>
+
+               <a class="link" href="/static/language/index.html" > <div class="item">languages</div></a>
+
+                <a class="link" href="/static/website/index.html"><div class="item">website</div></a>
+
+               <a class="link" href="/static/list/index.html" ><div class="item">lists</div></a>
+
+               <a class="link" href="/static/travels/index.html"> <div class="item active">travels</div></a>
+            
 
 
-                <div class="item"><a class="link" href="/static/language/index.html" target=>languages</a></div>
-                <div class="item"><a class="link" href="/static/website/index.html" target=>website</a></div>
-                <div class="item active"><a class="link" href="/static/travels/index.html" target=>travels</a></div>
-
-                <div class="item"><a class="link" href="/static/list/index.html" target=>lists</a></div>
             </div>
         </div>
     </div>
     <p>This is a work in progress, come back soon!</p>
 
-
+<section class="bottoms">
+    {% include "footer.njk" %}
+</section>
 </body>
 
 </html>

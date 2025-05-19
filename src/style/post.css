@@ -49,12 +49,12 @@ img {
     margin-top: 10px;
     margin-bottom: 10px;
     border-style: solid;
-
 }
 
 figure {
     width: fit-content;
     margin: 0 auto;
+    
 }
 
 .title,

@@ -21,7 +21,36 @@ html {
     font-size: 15px;
 
 }
-
+.listtitle{
+    background:#DFFFFE;
+    padding-top: 5px;
+    padding-bottom:5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-left: 8px;
+    border-style: double;
+    border-color: #90dbf1;;
+    border-radius: 2px;
+    border-width: 6px;
+    font-family: "Rokkitt", serif;
+font-size: 20px;
+text-align:center;
+}
+ .postinfo{
+    display: flex;
+    align-items:right;
+    justify-content:right;
+    flex-direction: row;
+   
+}
+.thumbfoto{
+    display: flex;
+    align-items:right;
+    justify-content:right;
+    flex-direction: row;
+    height:150px;
+}
 
 .post, .postname {
     text-decoration: none;

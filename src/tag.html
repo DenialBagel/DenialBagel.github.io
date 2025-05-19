@@ -12,10 +12,7 @@ eleventyComputed:
 <link rel="stylesheet" href="/style/blog.css" />
 <div class="tagmenu">
 
-  <div class="hashtag active"><a class="link" href="/static/blog/index.html">all</a></div>
-      <div class="hashtag"><a class="link" href="/blog/tag/languages/index.html">languages</a> </div>
-           <div class="hashtag"><a class="link" href="/blog/tag/travels/index.html">travels</a> </div>
-              <div class="hashtag"><a class="link" href="/blog/tag/central-america/index.html">central america</a></div>
+  {% include "tagmenu.njk" %}
 
 </div>
 <h1 class="tag">
@@ -23,7 +20,7 @@ eleventyComputed:
 </h1>
 
 
-  {% for post in collections[tag] %}
+  {% for post in collections[tag] | reverse %}
     {% include "postslistitem.njk" %}
   {% endfor %}
 

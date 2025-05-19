@@ -36,7 +36,7 @@ h1 {
 
 h3 {
     font-size: clamp(30px, 7vw, 8vw);
-    text-decoration-line: underline;
+   
     margin-top: 0px;
 }
 
@@ -106,7 +106,7 @@ body {
 }
 
 
-.item {
+.item{
     font-family: "Rokkitt", serif;
     display: inline-block;
     padding: 10px 20px;
