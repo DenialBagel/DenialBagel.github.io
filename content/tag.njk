@@ -1,0 +1,30 @@
+---
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  addAllPagesToCollections: true
+permalink: /blog/tag/{{ tag | slugify }}/index.html
+eleventyComputed:
+  title: Posts Tagged with "{{tag}}"
+---
+
+{% css %}
+{% include "css/blog.css" %}
+{% endcss %}
+
+<div class="tagmenu">
+  {% include "tagmenu.njk" %}
+</div>
+
+<h1 class="tag">
+ More of {{ tag }}
+</h1>
+
+{% for post in collections[tag] | reverse %}
+  {% include "postslistitem.njk" %}
+{% endfor %}
+
+<h2 class="hashtag">
+  <a  class="link" href="/blog/index.html">back to all</a>
+</h2>

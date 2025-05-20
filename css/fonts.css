@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Freckle Face";
+  font-style: normal;
+  src: url("/fonts/FreckleFace-Regular.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: "Rokkitt";
+  font-style: normal;
+  font-weight: 100 900;
+  src: url("/fonts/Rokkitt-VariableFont_wght.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: "Rokkitt Italic";
+  font-style: italic;
+  font-weight: 100 900;
+  src: url("/fonts/Rokkitt-Italic-VariableFont_wght.ttf") format('truetype');
+}

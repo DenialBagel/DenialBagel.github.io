@@ -1,0 +1,66 @@
+---
+eleventyNavigation:
+  key: "Home"
+  order: 0
+layout: ''
+---
+
+<!DOCTYPE html>
+<html lang="{{ metadata.language }}">
+    <head>
+        <title>{{ title or metadata.title }}</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="{{ description or metadata.description }}">
+
+        {% css %}
+        {# Add CSS files here #}
+        {% include "css/fonts.css" %}
+        {% include "css/index.css" %}
+        {% endcss %}
+
+        <link rel="stylesheet" href="{% getBundleFileUrl "css" %}">
+    </head>
+
+    <body>
+        <div id="hero">
+            <h1> DenialBagel.com</h1>
+            <h3>Rachel Yu's digital garden</h3>
+        </div>
+        <div class="blogintro">
+            <p> turn worry into wonder</p>
+        </div>
+        <div class="menubar">
+
+            <a class="link" href="/aboutme" >
+                <div class="item">About me</div>
+            </a>
+
+            <a class="link" href="/blog/">
+                <div class="item">blog</div>
+            </a>
+
+            <a class="link" href="/language" >
+                <div class="item">languages</div>
+            </a>
+
+            <a class="link" href="/website">
+                <div class="item">website</div>
+            </a>
+
+            <a class="link" href="/list" >
+                <div class="item">lists</div>
+            </a>
+
+            <a class="link" href="/travels">
+                <div class="item">travels</div>
+            </a>
+
+        </div>
+
+        <section class="bottoms">
+            {% include "footer.njk" %}
+        </section>
+    </body>
+
+</html>

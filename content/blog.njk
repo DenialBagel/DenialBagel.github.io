@@ -1,0 +1,48 @@
+---
+eleventyNavigation:
+  key: "Blog"
+  order: 2
+pagination:
+  data: collections.posts
+  size: 3
+---
+
+{% css %}
+{% include "css/blog.css" %}
+{% endcss %}
+
+<div class="blogintro">
+    <p>Take a deep breath before diving into Rachel's cursed thoughts...</p>
+</div>
+
+<div class="tagmenu">
+    {% include "tagmenu.njk" %}
+</div>
+
+<section class="posts">
+    {% set postslist = pagination.items %}
+    {% include "postslist.njk" %}
+</section>
+
+<nav >
+    <h2>Pages</h2>
+    <ol>
+        <li>
+            {% if pagination.href.previous %}
+                <a href="{{ pagination.href.previous }}">Previous</a>
+            {% else %}Previous{% endif %}
+        </li>
+
+        {%- for pageEntry in pagination.pages %}
+            <li>
+                <a href="{{ pagination.hrefs[ loop.index0 ] }}"{% if page.url == pagination.hrefs[ loop.index0 ] %} aria-current="page"{% endif %}>Page {{ loop.index }}</a>
+            </li>
+        {%- endfor %}
+
+        <li>
+            {% if pagination.href.next %}
+                <a href="{{ pagination.href.next }}">Next</a>
+            {% else %}Next{% endif %}
+        </li>
+    </ol>
+</nav>

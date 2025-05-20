@@ -1,0 +1,22 @@
+{% css %}
+{% include "css/header.css" %}
+{% endcss %}
+
+<header>
+    <div class="top">
+        <h1> DenialBagel.github.io</h1>
+        <h3 id="garden">Rachel Yu's digital garden</h3>
+
+        <div class="menubar">
+            {%- for entry in collections.all | eleventyNavigation %}
+                <a
+                    href="{{ entry.url }}"
+                    class="menuitem link"
+                    {% if entry.url == page.url %} aria-current="page" {% endif %}
+                >
+                    {{ entry.title }}
+                </a>
+            {%- endfor %}
+        </div>
+    </div>
+</header>

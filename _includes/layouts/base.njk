@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="{{ metadata.language }}">
+    <head>
+        <title>{{ title or metadata.title }}</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="{{ description or metadata.description }}">
+
+        {% css %}
+        {# Add CSS files here, that will be shared on all pages that use the layout "layouts/base.hjk"  #}
+        {% include "css/fonts.css" %}
+        {% endcss %}
+
+        <link rel="stylesheet" href="{% getBundleFileUrl "css" %}">
+    </head>
+
+    <body>
+        {% include "header.njk" %}
+
+        {% block content %}
+            {{ content | safe }}
+        {% endblock %}
+
+        <section class="bottoms">
+            {% include "footer.njk" %}
+        </section>
+    </body>
+</html>

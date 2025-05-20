@@ -1,0 +1,23 @@
+<a class="link" href="{{ post.url }}">
+  <div class="post">
+    <div>
+      <h2>{{ post.data.title }}</h2>
+      <h3 class="date">{{ post.data.date | postDate }}</h3>
+      <p class="taggie">
+        {% for tag in post.data.tags %}
+          {% if tag !== "posts" %}
+            #{{ tag }}
+          {% endif %}
+        {% endfor %}
+      </p>
+    </div>
+
+    <figure>
+      {% if post.data.thumbnail %}
+        <img class="thumbnail" src="{{ post.data.thumbnail }}">
+      {% else %}
+        <img class="thumbnail" src="https://placehold.co/150">
+      </figure>
+    {% endif %}
+  </div>
+</a>

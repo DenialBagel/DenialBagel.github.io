@@ -1,0 +1,55 @@
+---
+layout: layouts/base.njk
+---
+
+{% css %}
+{% include "css/post.css" %}
+{% endcss %}
+
+<section class="content">
+    <div>
+        <h1 class="title">{{title}}</h1>
+        <h2 class="namedate">{{ date | postDate}} | Rachel Yu</h2>
+
+        <ul class="link">
+            {% for tag in tags %}
+                {% if tag !== "posts" %}
+                    <li class="tags link">
+                        <a href="/blog/tag/{{tag | slugify}}">{{tag}}</a>
+                    </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+
+        <h1 class="location">{{location}}</h1>
+    </div>
+
+    <div>
+        {{ content | safe }}
+    </div>
+</section>
+
+{%- if collections.posts %}
+    {%- set previousPost = collections.posts | getPreviousCollectionItem %}
+    {%- set nextPost = collections.posts | getNextCollectionItem %}
+
+    {%- if nextPost or previousPost %}
+        <ul class="links-nextprev">
+            {%- if previousPost %}
+                <li class="links-nextprev-prev">← Previous<br>
+                    <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a>
+                </li>
+            {% endif %}
+
+            {%- if nextPost %}
+                <li class="links-nextprev-next">Next →<br>
+                    <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>
+                </li>
+            {% endif %}
+        </ul>
+    {%- endif %}
+{%- endif %}
+
+<a href="/blog/">
+    <h2 class="button back">back</h2>
+</a>
