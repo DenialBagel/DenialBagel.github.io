@@ -63,8 +63,11 @@ html {
     align-items: center;
 }
 
+.tagmenu .link {
+    text-decoration: none;
+}
 
- .hashtag {
+.hashtag {
     font-family: "Rokkitt", serif;
     display: inline-block;
     padding: 7px 17px;
@@ -76,14 +79,15 @@ html {
     font-size: 16px;
     font-weight: bold;
     text-align: center;
-    /* text-decoration: none; */
     text-transform: uppercase;
     border: 2px solid #000000;
     transition: background-color 0.3s ease, transform 0.2s ease;
     transition: box-shadow 0.2s ease, transform 0.1s ease;
 }
+
 footer a {
-    text-decoration: underline; /* Ensures footer links are underlined */
+    text-decoration: underline;
+    /* Ensures footer links are underlined */
 }
 @font-face {
   font-family: "Freckle Face";
