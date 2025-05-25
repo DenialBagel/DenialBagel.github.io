@@ -19,7 +19,7 @@ html {
     background-size: calc(4*var(--s)) calc(4*var(--s))
 }
 
-p {
+.workinprogress {
     font-family: "Rokkitt", serif;
     background: #f8f9f9;
     font-size: 30px;

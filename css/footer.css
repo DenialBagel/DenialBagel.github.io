@@ -4,19 +4,21 @@
 }
 
 .bottoms {
-    /* display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-direction: row; */
+ 
     font-family: "Rokkitt", serif;
     font-optical-sizing: auto;
     font-style: normal;
 }
-
+.getintouch{
+font-size: 20px;
+font-weight: bold;
+margin-top: 10px;
+margin-bottom: 10px;
+}
 .card,
 .contact {
     color: #222222;
-    background: #e4c1f9;
+    background: #ffd6e0;
     /* background: #C1FBA4; */
     width: 90%;
     border-radius: 5px;

@@ -23,6 +23,7 @@ html {
 }
 
 .listtitle {
+    text-decoration: none;
     background: #DFFFFE;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -62,12 +63,8 @@ html {
     align-items: center;
 }
 
-li {
-    margin-top: 30px;
-    list-style-type: none;
-}
 
-.hashtag {
+ .hashtag {
     font-family: "Rokkitt", serif;
     display: inline-block;
     padding: 7px 17px;
@@ -79,9 +76,12 @@ li {
     font-size: 16px;
     font-weight: bold;
     text-align: center;
-    text-decoration: none;
+    /* text-decoration: none; */
     text-transform: uppercase;
     border: 2px solid #000000;
     transition: background-color 0.3s ease, transform 0.2s ease;
     transition: box-shadow 0.2s ease, transform 0.1s ease;
+}
+footer a {
+    text-decoration: underline; /* Ensures footer links are underlined */
 }

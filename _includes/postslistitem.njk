@@ -1,7 +1,7 @@
 <a class="link" href="{{ post.url }}">
   <div class="post">
-    <div>
-      <h2>{{ post.data.title }}</h2>
+    <div class="postinfo">
+      <h2 class="posttitle">{{ post.data.title }}</h2>
       <h3 class="date">{{ post.data.date | postDate }}</h3>
       <p class="taggie">
         {% for tag in post.data.tags %}
@@ -11,13 +11,14 @@
         {% endfor %}
       </p>
     </div>
-
+<div  class="thumbnail">
     <figure>
       {% if post.data.thumbnail %}
-        <img class="thumbnail" src="{{ post.data.thumbnail }}">
+        <img class="thumbphoto" src="{{ post.data.thumbnail }}">
       {% else %}
-        <img class="thumbnail" src="https://placehold.co/150">
+        <img class="thumbphoto" src="https://placehold.co/150">
       </figure>
     {% endif %}
+  </div>
   </div>
 </a>

@@ -29,6 +29,10 @@ body {
     margin-top: 10px;
 
 }
+.gifdog {
+    width: 50px; /* Set a fixed width */
+    height: auto; /* Maintain aspect ratio */
+}
 
 #screenshot {
     width: 200px;
@@ -38,7 +42,7 @@ body {
     border-style: solid;
 }
 
-.content {
+ .content {
     background: #d7f9c7;
     border-color: #8fee50;
     border-style: solid;

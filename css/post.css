@@ -41,18 +41,16 @@ body {
     font-optical-sizing: auto;
     font-style: normal;
 }
-
 img {
-
-    width: 200px;
+    max-width: 100%; /* Ensures the image scales within its container */
+    height: auto;    /* Maintains the aspect ratio */
     box-shadow: 2px 2px 5px #000;
     margin-top: 10px;
     margin-bottom: 10px;
     border-style: solid;
 }
-
 figure {
-    width: fit-content;
+    width: 300px;
     margin: 0 auto;
     
 }
