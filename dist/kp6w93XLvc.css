@@ -1,0 +1,182 @@
+@font-face {
+  font-family: "Freckle Face";
+  font-style: normal;
+  src: url("/fonts/FreckleFace-Regular.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: "Rokkitt";
+  font-style: normal;
+  font-weight: 100 900;
+  src: url("/fonts/Rokkitt-VariableFont_wght.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: "Rokkitt Italic";
+  font-style: italic;
+  font-weight: 100 900;
+  src: url("/fonts/Rokkitt-Italic-VariableFont_wght.ttf") format('truetype');
+}
+        ::before,
+::after {
+  box-sizing: border-box;
+}
+
+.link {
+  text-decoration: none;
+}
+
+body {
+
+  background: aliceblue;
+  font-family: "Ysabeau Office", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+#hero {
+
+  display: block;
+  font-family: "Freckle Face", system-ui;
+  font-style: normal;
+  background-color: #ffd6e0;
+  border: 1px solid #EFAABC;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  margin-top: 20px;
+
+  text-align: center;
+
+  font-weight: bold;
+  box-shadow: 2px 2px 0px #000;
+
+}
+
+.menubar {
+  background-color: #f8f894;
+  border: 1px solid #dede40;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-family: "Rokkitt", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: bold;
+  box-shadow: 2px 2px 0px #000;
+}
+
+.item {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #90F1EF;
+  color: #000;
+  cursor: pointer;
+  width: 80%;
+  height: 60%;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 2px solid #000000;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  border-radius: 10px;
+  box-shadow: 2px 2px 0px #000;
+  transition: box-shadow 0.2s ease, transform 0.1s ease;
+}
+
+
+
+h1 {
+  font-size: clamp(48px, 13vw, 14vw);
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: clamp(30px, 7vw, 8vw);
+  margin-top: 0px;
+}
+
+.blogintro {
+  background-color: #C1FBA4;
+  border: 1px solid #acfd96;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  padding-left: 20px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 2px 2px 0px #000;
+  font-family: "Rokkitt", serif;
+}
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+.bottoms {
+ 
+    font-family: "Rokkitt", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.getintouch{
+font-size: 20px;
+font-weight: bold;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.card,
+.contact {
+    color: #222222;
+    background: #ffd6e0;
+    /* background: #C1FBA4; */
+    width: 90%;
+    border-radius: 5px;
+    padding-right: 5px;
+    height: 120px;
+    margin-top: 50px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: yellow;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 2px 2px 3px #000;
+
+}
+
+
+
+
+#intro {
+    display: flex;
+    text-align: left;
+    margin: 10px, 5px, 10px, 5px;
+
+
+}
+
+#kid {
+    width: 90px;
+    max-width: 200px;
+    margin-left: 10px;
+    border-style: dotted;
+    border-color: #222222;
+}
+
+#text {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}

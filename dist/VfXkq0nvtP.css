@@ -1,0 +1,258 @@
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+.title {
+    font-size: 25px;
+}
+
+body {
+
+
+    background: aliceblue;
+    font-family: "Rokkitt", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
+
+.linkgarden {
+    background: #d7f9c7;
+    border-color: #8fee50;
+    border-style: solid;
+    box-shadow: 2px 2px 2px #000;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    margin-top: 10px;
+
+}
+.gifdog {
+    width: 50px; /* Set a fixed width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+#screenshot {
+    width: 200px;
+
+    border-color: rgb(162, 220, 138);
+    box-shadow: 2px 2px 5px #000;
+    border-style: solid;
+}
+
+ .content {
+    background: #d7f9c7;
+    border-color: #8fee50;
+    border-style: solid;
+    box-shadow: 2px 2px 2px #000;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+@font-face {
+  font-family: "Freckle Face";
+  font-style: normal;
+  src: url("/fonts/FreckleFace-Regular.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: "Rokkitt";
+  font-style: normal;
+  font-weight: 100 900;
+  src: url("/fonts/Rokkitt-VariableFont_wght.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: "Rokkitt Italic";
+  font-style: italic;
+  font-weight: 100 900;
+  src: url("/fonts/Rokkitt-Italic-VariableFont_wght.ttf") format('truetype');
+}
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+header {
+
+    display: block;
+    font-family: "Freckle Face", system-ui;
+    font-style: normal;
+    background-color: #ffd6e0;
+    border: 1px solid #EFAABC;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    margin-top: 20px;
+
+    text-align: center;
+
+    font-weight: bold;
+    box-shadow: 2px 2px 0px #000;
+
+}
+
+h1 {
+    font-size: clamp(40px, 5vw, 14vw);
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: clamp(30px, 1.875vw, 8vw);
+
+    margin-top: 0px;
+}
+
+/* h1 {
+    font-size: clamp(48px, 13vw, 14vw);
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: clamp(30px, 7vw, 8vw);
+    text-decoration-line: underline;
+    margin-top: 0px;
+}
+
+#garden {
+    font-size: 40px;
+    text-decoration-line: underline;
+    margin-top: 0px;
+}
+
+.top {
+
+
+    display: block;
+    font-family: "Freckle Face", system-ui;
+    font-style: normal;
+    background-color: #ffd6e0;
+    border: 1px solid #EFAABC;
+    padding: 0.1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    box-shadow: 2px 2px 0px #000;
+
+
+}
+
+
+
+body {
+
+    background: aliceblue;
+    font-family: "Rokkitt", serif;
+    font-optical-sizing: auto;
+
+    font-style: normal;
+} */
+
+.menubar,
+.tagmenu {
+    background-color: #f8f894;
+    border: 1px solid #fdfd96;
+    padding: 0.1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    box-shadow: 2px 2px 0px #000;
+    font-family: "Rokkitt", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+.menuitem {
+    font-family: "Rokkitt", serif;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #90F1EF;
+    color: #000;
+    box-shadow: 2px 2px 0px #000;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid #000000;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    transition: box-shadow 0.2s ease, transform 0.1s ease;
+
+    &[aria-current="page"] {
+        background-color: #C1FBA4;
+    }
+}
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+.bottoms {
+ 
+    font-family: "Rokkitt", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.getintouch{
+font-size: 20px;
+font-weight: bold;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.card,
+.contact {
+    color: #222222;
+    background: #ffd6e0;
+    /* background: #C1FBA4; */
+    width: 90%;
+    border-radius: 5px;
+    padding-right: 5px;
+    height: 120px;
+    margin-top: 50px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: yellow;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 2px 2px 3px #000;
+
+}
+
+
+
+
+#intro {
+    display: flex;
+    text-align: left;
+    margin: 10px, 5px, 10px, 5px;
+
+
+}
+
+#kid {
+    width: 90px;
+    max-width: 200px;
+    margin-left: 10px;
+    border-style: dotted;
+    border-color: #222222;
+}
+
+#text {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
