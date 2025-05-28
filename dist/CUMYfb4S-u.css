@@ -1,70 +1,121 @@
-html {
-    background: aliceblue;
-    font-family: "Rokkitt", serif;
+::before,
+::after {
+        box-sizing: border-box;
+}
+
+body {
+        background: aliceblue;
+        font-family: "Rokkitt", serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+}
+
+.imgcontainer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+}
+
+/*
+#firstphoto,
+#thirdphoto {
+        height: 400px;
+        width: 300px;
+        border-style: outset;
+        border-color: blueviolet;
+        padding-bottom: 40px;
+        margin-bottom: 20px;
+}*/
+.figure {
+        border: thin #c0c0c0 solid;
+        /* display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row; */
+        width: 300px;
+        height: 400px;
+        border-style: solid;
+        box-shadow: 2px 2px 2px #000;
+
+        padding: 5px;
+
 
 }
 
+.pwl{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        height:auto;
+        width:300px;
+        box-shadow: 2px 2px 5px #000;
+margin-top:8px;
+margin-left:auto;
+margin-right:auto;
 
-.center{
-    text-align: center;
-
-}
-.link{
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 20px;
-}
-.listtitle, .currentread, .bestread{
-    background-color: #C1FBA4;
-    border: 1px solid #acfd96;
-    border-radius: 5px;
-    padding-top: 5px;
-    margin-bottom: 1rem;
-    padding-left: 20px;
-    text-align: left;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    box-shadow: 2px 2px 0px #000;
-    font-family: "Rokkitt", serif;
-}
-.current{
-    text-align: left;
-}
- /* display:flex;
-    flex-direction: row; */
-
-
-.listitem {
-
-    background:#DFFFFE;
-    padding-top: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
-    padding-left: 8px;
-    border-style: double;
-    border-color: #90dbf1;;
-    border-radius: 2px;
-    border-width: 6px;
-}
-.book{
-    font-size: 20px;
-    text-transform: capitalize;
-}
-.author{
-    font-size:18px;
-    margin-top: 5px;
-    margin-bottom:6px;
-    text-transform: capitalize;
+        border-style: solid;
 
 }
-.checked {
-    color: orange;
-  }
-  .star{
-    text-align: left;
-  }
+.cook{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        height:auto;
+        width:300px;
+        box-shadow: 2px 2px 5px #000;
+margin-top:8px;
+margin-left:auto;
+margin-right:auto;
+
+        border-style: solid;
+}
+#firstphoto,
+#thirdphoto {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 300px;
+        box-shadow: 2px 2px 5px #000;
+        height: 400px;
+
+        border-style: solid;
+
+
+}
+
+.whoami {
+        background: #d7f9c7;
+        border-color: #8fee50;
+        border-style: solid;
+        box-shadow: 2px 2px 2px #000;
+        border-radius: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        --s: 100px;
+    
+}
+
+figcaption {
+        background-color: #d8d6d6;
+        color: #121e13;
+        padding: 3px;
+        text-align: center;
+        width: 297px;
+        box-shadow: 2px 2px 2px #000;
+}
+
+
+
+/*
+.aboutme {
+        display: flex;
+        flex-direction: column;
+}
+*/
 @font-face {
   font-family: "Freckle Face";
   font-style: normal;
@@ -225,22 +276,16 @@ margin-bottom: 10px;
 }
 .card,
 .contact {
+    display: flex; /* Enables flexbox layout */
+    align-items: center; /* Vertically centers children */
+    gap: 20px; /* Adds space between children */
     color: #222222;
     background: #ffd6e0;
-    /* background: #C1FBA4; */
     width: 90%;
     border-radius: 5px;
-    padding-right: 5px;
-    height: 120px;
-    margin-top: 50px;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 10px; /* Simplifies padding */
+    margin: 50px auto; /* Centers the card horizontally */
     border-color: yellow;
-    display: flex;
-    align-items: center;
-    gap: 20px;
     box-shadow: 2px 2px 3px #000;
 
 }
@@ -256,16 +301,30 @@ margin-bottom: 10px;
 
 }
 
-#kid {
+.kid {
     width: 90px;
+    height: 90px;
     max-width: 200px;
-    margin-left: 10px;
+    max-height: 200px;
     border-style: dotted;
     border-color: #222222;
+    margin: 0; /* Removes conflicting margins */
 }
 
+.big {
+    width: 90px;
+    height: 90px;
+    max-width: 200px;
+    max-height: 200px;
+    border-style: dotted;
+    border-color: #222222;
+    margin: 0;
+    margin-left:auto;
+    
+}
 #text {
     display: block;
-    text-align: center;
+    margin-right:90px;
+    text-align: left;
     font-weight: bold;
 }
