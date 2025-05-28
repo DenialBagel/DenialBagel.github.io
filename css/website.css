@@ -30,13 +30,13 @@ body {
 
 }
 .gifdog {
-    width: 50px; /* Set a fixed width */
+    width: 300px; /* Set a fixed width */
     height: auto; /* Maintain aspect ratio */
 }
 
-#screenshot {
+#screenshot, .screenshot1 {
     width: 200px;
-
+height: fit-content;
     border-color: rgb(162, 220, 138);
     box-shadow: 2px 2px 5px #000;
     border-style: solid;

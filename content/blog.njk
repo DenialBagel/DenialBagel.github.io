@@ -26,7 +26,7 @@ pagination:
 
 <nav >
   
-    <ol>
+    <ol class="leftrightnumber">
         <li class="leftright">
             {% if pagination.href.previous %}
                 <a href="{{ pagination.href.previous }}">Previous</a>
@@ -35,7 +35,7 @@ pagination:
 
         {%- for pageEntry in pagination.pages %}
             <li class="pagenumber">
-                <a href="{{ pagination.hrefs[ loop.index0 ] }}"{% if page.url == pagination.hrefs[ loop.index0 ] %} aria-current="page"{% endif %}>Page {{ loop.index }}</a>
+                <a href="{{ pagination.hrefs[ loop.index0 ] }}"{% if page.url == pagination.hrefs[ loop.index0 ] %} aria-current="page"{% endif %}> {{ loop.index }}</a>
             </li>
         {%- endfor %}
 

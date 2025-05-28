@@ -11,7 +11,9 @@
     box-shadow: 2px 2px 0px #000;
     font-family: "Rokkitt", serif;
 }
-
+.postinfo{
+    text-align: center;
+}
 
 html {
     background: aliceblue;
@@ -40,10 +42,19 @@ html {
     text-align: center;
 }
 
-.thumbnail {
-    height: 150px;
-}
 
+    .thumbnail {
+        overflow: hidden; /* Ensures the image stays within the container */
+        display: flex; /* Optional: Ensures proper alignment */
+        justify-content: center; /* Centers the image horizontally */
+        align-items: center; /* Centers the image vertically */
+        max-width: fit-content;
+    }
+
+
+a{
+    text-decoration: none;
+}
 .post {
     text-decoration: none;
     font-family: "Rokkitt", serif;
@@ -66,8 +77,11 @@ html {
 .tagmenu .link {
     text-decoration: none;
 }
-
-.hashtag {
+.leftrightnumber{
+margin-left: auto;
+margin-right:auto;
+}
+ .hashtag, .leftright, .pagenumber {
     font-family: "Rokkitt", serif;
     display: inline-block;
     padding: 7px 17px;

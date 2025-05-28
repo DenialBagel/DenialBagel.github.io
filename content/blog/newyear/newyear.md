@@ -5,6 +5,7 @@ location: Ometepe Island, Nicaragua
 tags:
   - "travels"
   - "central america"
+thumbnail: "pig.png"
 ---
 
 I am invited by my local friend Carlos and his lovely family to spend new year's eve with them in their house.
@@ -17,17 +18,17 @@ With each clumsy step through the dense jungle in the chilly air, my worry soars
 
 <figure>
   <img
-    src="/foto/IMG_5145.jpeg"
-    alt="Elephant at sunset" />
-  <figcaption>An elephant at sunset</figcaption>
+    src="IMG_5145.jpeg"
+    alt="The way out in the morning" />
+  <figcaption>The way out in the morning</figcaption>
 
 </figure>
 
 <figure>
   <img
-    src="/foto/Bahareque1-scaled.jpg"
-    alt="Elephant at sunset" />
-  <figcaption>An elephant at sunset</figcaption>
+    src="Bahareque1-scaled.jpg"
+    alt="An equivalent of Carlos'house " />
+  <figcaption>Not the actual house but this is what it looks like</figcaption>
 
 </figure>
 With the anxiety that has piled up on the way here, I take a deep breath, fix a smile on my face, think to myself, "Here goes nothing." And enter.
@@ -44,13 +45,13 @@ The aroma of fresh gallo pinto fills the air, attracting stray dogs into the kit
 
 <figure>
   <img
-    src="/foto/IMG_5137.jpeg"
+    src="IMG_5137.jpeg"
     alt="Elephant at sunset" />
 
 </figure>
 <figure>
   <img
-    src="/foto/pig.png"
+    src="pig.png"
     alt="Elephant at sunset" />
 
 </figure>

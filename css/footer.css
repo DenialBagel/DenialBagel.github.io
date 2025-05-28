@@ -17,22 +17,16 @@ margin-bottom: 10px;
 }
 .card,
 .contact {
+    display: flex; /* Enables flexbox layout */
+    align-items: center; /* Vertically centers children */
+    gap: 20px; /* Adds space between children */
     color: #222222;
     background: #ffd6e0;
-    /* background: #C1FBA4; */
     width: 90%;
     border-radius: 5px;
-    padding-right: 5px;
-    height: 120px;
-    margin-top: 50px;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 10px; /* Simplifies padding */
+    margin: 50px auto; /* Centers the card horizontally */
     border-color: yellow;
-    display: flex;
-    align-items: center;
-    gap: 20px;
     box-shadow: 2px 2px 3px #000;
 
 }
@@ -48,16 +42,30 @@ margin-bottom: 10px;
 
 }
 
-#kid {
+.kid {
     width: 90px;
+    height: 90px;
     max-width: 200px;
-    margin-left: 10px;
+    max-height: 200px;
     border-style: dotted;
     border-color: #222222;
+    margin: 0; /* Removes conflicting margins */
 }
 
+.big {
+    width: 90px;
+    height: 90px;
+    max-width: 200px;
+    max-height: 200px;
+    border-style: dotted;
+    border-color: #222222;
+    margin: 0;
+    margin-left:auto;
+    
+}
 #text {
     display: block;
-    text-align: center;
+    margin-right:90px;
+    text-align: left;
     font-weight: bold;
 }

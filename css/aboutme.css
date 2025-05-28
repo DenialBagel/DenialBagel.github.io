@@ -43,6 +43,35 @@ body {
 
 }
 
+.pwl{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        height:auto;
+        width:300px;
+        box-shadow: 2px 2px 5px #000;
+margin-top:8px;
+margin-left:auto;
+margin-right:auto;
+
+        border-style: solid;
+
+}
+.cook{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        height:auto;
+        width:300px;
+        box-shadow: 2px 2px 5px #000;
+margin-top:8px;
+margin-left:auto;
+margin-right:auto;
+
+        border-style: solid;
+}
 #firstphoto,
 #thirdphoto {
         display: flex;
