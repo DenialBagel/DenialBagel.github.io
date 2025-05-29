@@ -30,9 +30,8 @@ But what you suppress doesn't just go away. It appears in other forms. I became 
 
 <figure>
   <img
-    src="/foto/ambulance.jpeg"
+    src="ambulance.jpg"
     alt="ambulance" />
-
 </figure>
 <h2>What is this trying to teach me?</h2>
 It has been one of the most stressful periods of my life, and it might be a while before I'm back on the road. I'm absolutely gutted to have to pause my adventures, to tell my friends with whom I made plans that I'm not going to make it. But as I lay flat in the hospital bed staring at the ceiling fan, I realized I could look at it two ways.

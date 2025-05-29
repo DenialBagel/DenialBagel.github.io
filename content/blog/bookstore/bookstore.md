@@ -18,7 +18,7 @@ When I entered the reading corner, I saw three people on the benches, two ladies
 
 <figure>
   <img
-    src="bookstore.jpeg"
+    src="bookstore.jpg"
     alt="bookstore corner" />
 
 </figure>

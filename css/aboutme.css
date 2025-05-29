@@ -58,6 +58,9 @@ margin-right:auto;
         border-style: solid;
 
 }
+.bench, .squat, .cook{
+        margin-left:10px;
+}
 .cook{
         display: flex;
         align-items: center;
@@ -72,8 +75,7 @@ margin-right:auto;
 
         border-style: solid;
 }
-#firstphoto,
-#thirdphoto {
+.myself {
         display: flex;
         align-items: center;
         justify-content: space-between;

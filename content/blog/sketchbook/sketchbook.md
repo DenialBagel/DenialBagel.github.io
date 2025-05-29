@@ -22,7 +22,7 @@ Currently on display is this painting featuring a hidden river in Japan surround
 Before my Central America trip, he gave me a capybara plushy that stayed attached to my backpack for months, until I unfortunately lost it after my accident.
 <figure>
   <img
-    src="pack.jpeg"
+    src="capy.jpeg"
     alt="my capybara" />
 </figure>
 
