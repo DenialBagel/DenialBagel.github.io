@@ -13,6 +13,14 @@ In fact, I set this rule for myself when I was trying to improve my English, and
 
 I do an entry of Spanish content every day on notion. The piece and nature of content varies every day, Ranging from YouTube videos, news articles, podcasts, or even voice notes from friends. The idea is that every day I can dive deep into a particular topic, and all the words and phrases related to it.
 
+<figure>
+
+  <img
+    src="dailyentry.png"
+    alt="Anki example" />
+
+</figure>
+
 Note that I do not include every single words I don’t know into my daily entry. I only choose the ones that I can see myself using. For example, in an article that I was reading about movies, there was the word ‘Estrenar’ which means to premiere in Spanish. Now, I don’t think I have ever even used this word in English, so I see no point of noting this word down in my entry. It goes into the ‘Good to know’  category of my brain. 
 
 <h2> Anki</h2>
@@ -22,6 +30,13 @@ One of the most integral tool for my journey to fluency. There are 3 main ways w
 a. nouns
 
 With nouns, I try not to translate. Whenever possible the front of the flashcard would be pictures instead of their English translations.
+<figure>
+
+  <img
+    src="semilla.png"
+    alt="Anki example" />
+
+</figure>
 
 b. useful phrases
 
@@ -29,7 +44,7 @@ There is a feature on Anki called Cloze, which is basically fill in the blanks. 
 <figure>
 
   <img
-    src="/foto/ankixmp.png"
+    src="ankiexp.png"
     alt="Anki example" />
 
 </figure>
@@ -49,7 +64,7 @@ b. I am very fortunate to have many native Spanish speaking friends. I call them
 
 I also have an online Spanish teacher, with whom I discuss the topics from my daily entry. That facilitates the conversion of newly acquired words from ‘ah I’ve seen this word somewhere’ to being able to actively use it in my speech. I obviously don’t do this with friends because…well, who hits up their friends and say, ‘Hey wassup? Let’s talk about genetically modified food today!’
 
-c. On days when I don't have Spanish conversations with friends or my teacher, I make a 10-minute recording of myself speaking Spanish. I then review the recording to identify moments where I hesitate or struggle to find words, and add the correct words to my daily entry. Recording yourself, although at first might feel unnatural, is the single most effective way to find out the gaps of your knowledge. Remember, no one has to see your videos if you don’t want them to be seen!
+c. On days when I don't have Spanish conversations with friends or my teacher, I make a <a  class="link" href="https://youtu.be/p1ngKadnOg4">10-minute recording of myself speaking Spanish.</a> I then review the recording to identify moments where I hesitate or struggle to find words, and add the correct words to my daily entry. Recording yourself, although at first might feel unnatural, is the single most effective way to find out the gaps of your knowledge. Remember, no one has to see your videos if you don’t want them to be seen!
 
 <h2>resources I use</h2>
 
@@ -57,15 +72,15 @@ It’s impossible to list everything, I am a frequent consumer of:
 
 a. YouTube:
 
-Spanish After Hours- Love her slow Spanish series, suitable for beginners
+<a class="link" href="https://www.youtube.com/@spanishafterhours" >Spanish After Hours</a>- Love her slow Spanish series, suitable for beginners
 
-How to Spanish Podcast- Very informative and covers interesting topics
+<a class="link" href="https://www.youtube.com/@HowtoSpanishOfficial">How to Spanish Podcast</a>- Very informative and covers interesting topics
 
-Atherion- His video style is so poetic and soothing, covers topics that are right up my alley
+<a class="link" href="https://www.youtube.com/@atherion" >Atherion</a>- His video style is so poetic and soothing, covers topics that are right up my alley
 
-GONZOK- Funny challenges. 
+<a class="link" href="https://www.youtube.com/@ElGonzok" >GONZOK</a>- Funny challenges. 
 
-CasiCreativo- Animations. 
+<a class="link" href=" https://www.youtube.com/results?search_query=casi+creativo" > CasiCreativo</a>- Animations. 
 
 b. Music:
 
@@ -103,4 +118,4 @@ c. Textbook
 
 A good structured way to get used to grammar. I wouldn’t rely on it to practice though.
 
-Complete Spanish Step-by-step
+<a class="link" href="https://www.goodreads.com/book/show/32282810-complete-spanish-step-by-step" > Complete Spanish Step-by-step</a>

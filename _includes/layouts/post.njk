@@ -13,7 +13,7 @@ layout: layouts/base.njk
     <div>
         <h1 class="title">{{title}}</h1>
         <h2 class="namedate">{{ date | postDate}} | Rachel Yu</h2>
-
+        <p class="location">{{location}}</p>
         <ul class="link">
             {% for tag in tags %}
                 {% if tag !== "posts" %}
@@ -24,7 +24,7 @@ layout: layouts/base.njk
             {% endfor %}
         </ul>
 
-        <h1 class="location">{{location}}</h1>
+       
     </div>
 
     <div>
