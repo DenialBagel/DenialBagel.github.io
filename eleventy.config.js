@@ -1,6 +1,7 @@
+import path from 'path';
 import { IdAttributePlugin, InputPathToUrlTransformPlugin, HtmlBasePlugin } from '@11ty/eleventy';
 import pluginNavigation from '@11ty/eleventy-navigation';
-import { eleventyImageTransformPlugin } from '@11ty/eleventy-img';
+import Image, { eleventyImageTransformPlugin } from '@11ty/eleventy-img';
 
 import pluginFilters from './_config/filters.js';
 
@@ -34,6 +35,14 @@ export default async function (eleventyConfig) {
     bundleHtmlContentFromSelector: 'script',
   });
 
+  // eleventyConfig.addCollection('thumbnails', async (collectionsApi) => {
+  //   const postsWithThumbnails = collectionsApi.getFilteredByTag('posts').filter((post) => {
+  //     return 'thumbnail' in post.data;
+  //   });
+
+  //   return postsWithThumbnails.map((post) => post.data.thumbnail);
+  // });
+
   // Official plugins
   eleventyConfig.addPlugin(pluginNavigation);
   eleventyConfig.addPlugin(HtmlBasePlugin);
@@ -42,9 +51,9 @@ export default async function (eleventyConfig) {
   // Image optimization: https://www.11ty.dev/docs/plugins/image/#eleventy-transform
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
     // Output formats for each image.
-    formats: ['avif', 'webp', 'auto'],
+    formats: ['webp', 'jpeg'],
 
-    // widths: ["auto"],
+    widths: ['auto', 100, 300, 500],
 
     failOnError: false,
     htmlOptions: {
@@ -58,6 +67,35 @@ export default async function (eleventyConfig) {
     sharpOptions: {
       animated: true,
     },
+  });
+
+  eleventyConfig.addNunjucksAsyncShortcode('thumbnail', async function (src, alt, postPath) {
+    console.log(alt);
+    const imageSrc = path.join(path.dirname(postPath), src);
+
+    try {
+      const metadata = await Image(imageSrc, {
+        widths: [100],
+        formats: ['webp', 'jpeg'],
+        outputDir: path.join(eleventyConfig.dir.output, 'img', 'thumbnails'),
+        urlPath: '/img/thumbnails/',
+      });
+
+      const attributes = {
+        alt,
+        loading: 'lazy',
+        decoding: 'async',
+        // 'eleventy:ignore': '',
+      };
+
+      const result = Image.generateHTML(metadata, attributes);
+      console.log(result);
+
+      return result;
+    } catch (e) {
+      console.error(`Error processing image ${imageSrc} for post ${postPath}: ${e.message}`);
+      return `<p class="thumbnail-error">Error: Thumbnail for ${alt} could not be generated.</p>`;
+    }
   });
 
   // Filters
@@ -102,4 +140,3 @@ export const config = {
 
   // pathPrefix: "/",
 };
-

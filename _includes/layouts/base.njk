@@ -17,9 +17,7 @@
     <body>
         {% include "header.njk" %}
 
-        {% block content %}
-            {{ content | safe }}
-        {% endblock %}
+        {{ content | safe }}
 
         <section class="bottoms">
             {% include "footer.njk" %}

@@ -5,7 +5,9 @@ location: Ometepe Island, Nicaragua
 tags:
   - "travels"
   - "central america"
-thumbnail: "pig.png"
+thumbnail:
+  src: "pig.png"
+  alt: "pigs"
 ---
 
 I am invited by my local friend Carlos and his lovely family to spend new year's eve with them in their house.

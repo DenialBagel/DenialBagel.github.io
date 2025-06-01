@@ -11,15 +11,15 @@
         {% endfor %}
       </p>
     </div>
-<div  class="thumbnail">
-    <figure>
+    <div class="thumbnail">
       {% if post.data.thumbnail %}
-        <img class="thumbphoto" src="{{ post.data.thumbnail }}">
+        {% thumbnail post.data.thumbnail.src,
+        post.data.thumbnail.alt,
+        post.page.inputPath %}
+
       {% else %}
-        <img class="thumbphoto" src="https://placehold.co/150">
-      
-    {% endif %}
-  </figure>
-  </div>
+        <img class="thumbphoto" eleventy:optional="placeholder">
+      {% endif %}
+    </div>
   </div>
 </a>
