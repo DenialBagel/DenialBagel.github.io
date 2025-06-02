@@ -1,10 +1,13 @@
 ---
+title: Blog Posts
 eleventyNavigation:
   key: "Blog"
   order: 2
 pagination:
   data: collections.posts
   size: 10
+  reverse: true
+  alias: postslist
 ---
 
 {% css %}
@@ -20,29 +23,31 @@ pagination:
 </div>
 
 <section class="posts">
-    {% set postslist = pagination.items %}
-    {% include "postslist.njk" %}
+    {%- for post in postslist  %}
+        {% include "postslistitem.njk" %}
+    {%- endfor %}
 </section>
 
 <nav >
-  
     <ol class="leftrightnumber">
-        <li class="leftright">
-            {% if pagination.href.previous %}
+        {% if pagination.href.previous %}
+            <li class="leftright">
                 <a href="{{ pagination.href.previous }}">Previous</a>
-            {% else %}Previous{% endif %}
-        </li>
+            </li>
+        {% endif %}
 
         {%- for pageEntry in pagination.pages %}
             <li class="pagenumber">
-                <a href="{{ pagination.hrefs[ loop.index0 ] }}"{% if page.url == pagination.hrefs[ loop.index0 ] %} aria-current="page"{% endif %}> {{ loop.index }}</a>
+                <a href="{{ pagination.hrefs[ loop.index0 ] }}"{% if page.url == pagination.hrefs[ loop.index0 ] %} aria-current="page"{% endif %}>
+                    {{ loop.index }}
+                </a>
             </li>
         {%- endfor %}
 
-        <li class="leftright">
-            {% if pagination.href.next %}
+        {% if pagination.href.next %}
+            <li class="leftright">
                 <a href="{{ pagination.href.next }}">Next</a>
-            {% else %}Next{% endif %}
-        </li>
+            </li>
+        {% endif %}
     </ol>
 </nav>
