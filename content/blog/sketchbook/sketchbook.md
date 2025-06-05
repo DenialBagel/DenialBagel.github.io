@@ -3,6 +3,9 @@ title: My friend’s sketchbook
 date: 2025-05-05
 tags:
   - "friends"
+thumbnail:
+  src: "IMG_7129 (1).jpeg"
+  alt: "display"
 ---
 
 A very close friend of mine, who’s also a backpacker, have some stuff stored in my home in Hong Kong.

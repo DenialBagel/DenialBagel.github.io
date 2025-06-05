@@ -5,6 +5,9 @@ location: La Libertad, El Salvador
 tags:
   - "travels"
   - "central america"
+thumbnail:
+  src: "IMG_6521.jpeg"
+  alt: "playa"
 ---
 
 When I was in the ocean, faced with a giant wave, I had no choice but to dive in and take whatever it gave me.

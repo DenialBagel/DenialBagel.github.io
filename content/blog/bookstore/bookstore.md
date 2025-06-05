@@ -4,7 +4,9 @@ date: 2025-05-15
 tags:
   - "shower thoughts"
   - "culture"
-  
+thumbnail:
+  src: "bookstore.jpg"
+  alt: "bookesotre"
 ---
 Yesterday I hung out in the bookstore for two hours.
 

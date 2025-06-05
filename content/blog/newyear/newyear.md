@@ -6,8 +6,8 @@ tags:
   - "travels"
   - "central america"
 thumbnail:
-  src: "pig.png"
-  alt: "pigs"
+  src: "kitchen.jpeg"
+  alt: "kitchen"
 ---
 
 I am invited by my local friend Carlos and his lovely family to spend new year's eve with them in their house.

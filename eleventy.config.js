@@ -44,7 +44,7 @@ export default async function (eleventyConfig) {
     // Output formats for each image.
     formats: ['webp', 'jpeg'],
 
-    widths: ['auto', 100, 300, 500],
+    widths: ['auto', 500, 700, 900],
 
     failOnError: false,
     htmlOptions: {

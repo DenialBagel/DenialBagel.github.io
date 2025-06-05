@@ -5,6 +5,9 @@ location: Morazán, El Salvador
 tags:
   - "travels"
   - "central america"
+thumbnail:
+  src: "IMG_6574 (1).jpeg"
+  alt: "rosa"
 ---
 <h2>Background</h2>
 For the first time in a very long while, I felt fear. 

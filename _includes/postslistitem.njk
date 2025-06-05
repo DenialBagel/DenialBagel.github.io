@@ -13,7 +13,7 @@
     </div>
     <div class="thumbnail">
       {% if post.data.thumbnail %}
-        <img src="{{ post.url }}{{ post.data.thumbnail.src }}" alt="{{ post.data.thumbnail.alt }}" width="100">
+        <img src="{{ post.url }}{{ post.data.thumbnail.src }}" alt="{{ post.data.thumbnail.alt }}" width="300">
       {% else %}
         <img class="thumbphoto" eleventy:optional="placeholder">
       {% endif %}

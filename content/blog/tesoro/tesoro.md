@@ -3,6 +3,9 @@ title: Tesoro
 date: 2025-05-30
 tags:
   - "español"
+thumbnail:
+  src: "9F8C5CFF-17F2-4618-8344-2FC39743C000 (1).jpg"
+  alt: "kids"
 ---
 Anoche cuando estaba estudiando español, tuve un pequeño pensamiento.
 
@@ -44,6 +47,12 @@ Extraño mucho la época cuando no había teléfonos con cámaras buenas, cuando
 <h2>Mis diarios</h2>
 
 Me pongo muy contenta cada vez que leo mis diarios antiguos. Me sirven de recuerdo de mi crecimiento.
+
+<figure>
+  <img
+    src="IMG_7207 (1).jpeg"
+    alt="cuadernos" />
+</figure>
 
 <h2>Mis libros</h2>
 
