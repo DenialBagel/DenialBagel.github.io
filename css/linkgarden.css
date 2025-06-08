@@ -1,9 +1,16 @@
 html {
+    
     background: aliceblue;
     font-family: "Rokkitt", serif;
 
 }
+body{
+    
+    max-width: 900px;
+    margin-left:auto;
+    margin-right:auto;
 
+}
 
 .center{
     text-align: center;

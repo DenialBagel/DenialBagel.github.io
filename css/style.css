@@ -7,7 +7,13 @@ li {
 }
 
 h1 {color:aquamarine}
+body{
+    
+  max-width: 900px;
+  margin-left:auto;
+  margin-right:auto;
 
+}
 html {
     font-size: 20px; 
     font-family:
