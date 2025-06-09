@@ -3,6 +3,12 @@
     box-sizing: border-box;
 }
 
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    margin-top: 20px;
+}
 .bottoms {
  
     font-family: "Rokkitt", serif;
@@ -17,21 +23,24 @@ margin-bottom: 10px;
 }
 .card,
 .contact {
+
     display: flex; /* Enables flexbox layout */
     align-items: center; /* Vertically centers children */
-    gap: 20px; /* Adds space between children */
+    gap: 10%; /* Adds space between children */
     color: #222222;
     background: #ffd6e0;
     width: 90%;
+    max-width: 340px;
     border-radius: 5px;
-    padding: 10px; /* Simplifies padding */
-    margin: 50px auto; /* Centers the card horizontally */
+    padding: 10px; 
+    margin-left: auto;
+    margin-right: auto;/* Simplifies padding */
+    /* Centers the card horizontally */
     border-color: yellow;
     box-shadow: 2px 2px 3px #000;
     justify-content: space-between;
 
 }
-
 
 
 

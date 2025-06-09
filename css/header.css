@@ -4,6 +4,7 @@
 }
 
 header {
+    
 
     display: block;
     font-family: "Freckle Face", system-ui;
@@ -31,7 +32,9 @@ h3 {
 
     margin-top: 0px;
 }
-
+body{
+    font-family: "Ysabeau Office", sans-serif;
+}
 /* h1 {
     font-size: clamp(48px, 13vw, 14vw);
     margin-bottom: 10px;
