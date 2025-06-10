@@ -5,19 +5,83 @@
 
 body {
         background: aliceblue;
-
-        font-optical-sizing: auto;
+        font-family: "Rokkitt", serif;
         font-style: normal;
         max-width: 900px;
-        margin-left:auto;
-        margin-right:auto;
+        margin-left: auto;
+        margin-right: auto;
 }
 
-.imgcontainer {
+.aboutme_parent, .powerlifting_parent, .cooking_parent, .backpacking_parent {
+        display: flex;
+        flex-wrap: wrap;
+        
+}
+
+
+.aboutme_sidebar, .powerlifting_sidebar, .cooking_sidebar, .backpacking_sidebar {
+        flex-grow: 1;
+        display: flex;
+        justify-content: space-around;
+}
+
+.aboutme_text, .powerlifting_text, .cooking_text, .backpacking_text {
+        background: #d7f9c7;
+        border-color: #8fee50;
+        border-style: solid;
+        box-shadow: 2px 2px 2px #000;
+        border-radius: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        margin-left: 40px;
+        margin-right:40px;
+        margin-top:20px;
+        margin-bottom:20px;
+        --s: 100px;
+        flex-basis: 0;
+        flex-grow: 999;   
+}
+
+figure {
+        display: block;
+        margin-block-start: 1rem;
+        margin-block-end: 1rem;
+        margin-inline-start: 40px;
+        margin-inline-end: 40px;
+        unicode-bidi: isolate;
+}
+
+img {
+        width: 100%;
+        height: auto;
+        /* Maintain aspect ratio */
+        display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .imgcontainer {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        justify-content: center;
+        flex-grow: 1;
+        justify-content: space-around;
 }
 
 /*
@@ -30,22 +94,18 @@ body {
         padding-bottom: 40px;
         margin-bottom: 20px;
 }*/
+/*
 .figure {
-        border: thin #c0c0c0 solid;
-        /* display: flex;
-        align-items: center;
-        justify-content: space-between;
-        flex-direction: row; */
-        width: 300px;
-        height: 400px;
-        border-style: solid;
-        box-shadow: 2px 2px 2px #000;
-
-        padding: 5px;
+       
 
 
 }
-
+padding: 8px;
+    border: 1.5px solid #37353f;
+    border-radius: 0 0 125px 3px / 3px 85px 5px 55px;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
+    width: 40%;
 .pwl{
         display: flex;
         align-items: center;
@@ -77,7 +137,7 @@ margin-right:auto;
 
         border-style: solid;
 }
-.myself {
+.img {
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -85,12 +145,26 @@ margin-right:auto;
         width: 300px;
         box-shadow: 2px 2px 5px #000;
         height: 400px;
-
         border-style: solid;
 
 
 }
+figure{
+         border: thin #c0c0c0 solid;
+ 
+        width: 300px;
+        height: 400px;
+        border-style: solid;
+        box-shadow: 2px 2px 2px #000;
 
+        padding: 5px;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 40px;
+        margin-inline-end: 40px;
+        unicode-bidi: isolate;
+}
 .whoami {
         background: #d7f9c7;
         border-color: #8fee50;
@@ -112,11 +186,18 @@ figcaption {
         box-shadow: 2px 2px 2px #000;
 }
 
-
-
-/*
-.aboutme {
-        display: flex;
-        flex-direction: column;
-}
 */
+/* desktop styles abajo de aca*/
+
+@media (min-width: 900px) {
+        .aboutme_sidebar, .powerlifting_sidebar, .cooking_sidebar, .backpacking_sidebar {
+            flex-basis: 15rem;
+            flex-direction: column;
+        }
+        .aboutme_text, .powerlifting_text, .cooking_text, .backpacking_text {
+                /* padding: 0 0 0 30px;
+                margin:0;       */
+                font-size: 1.24rem;
+        }
+    }
+
