@@ -6,8 +6,8 @@ tags:
   - "travels"
   - "central america"
 thumbnail:
-  src: "IMG_6574 (1).jpeg"
-  alt: "rosa"
+  src: "IMG_6942 (1).jpeg"
+  alt: "x-ray"
 ---
 <h2>Background</h2>
 For the first time in a very long while, I felt fear. 
@@ -33,7 +33,7 @@ But what you suppress doesn't just go away. It appears in other forms. I became 
 
 <figure>
   <img
-    src="ambulance.jpg"
+    src="IMG_6573 (1).jpeg"
     alt="ambulance" />
 </figure>
 <h2>What is this trying to teach me?</h2>
@@ -75,6 +75,11 @@ The woman and son who helped me get down from the rock and drove me to the clini
 
 The nurse in the clinic who told me “cuidate, loca”
 
-The EMT who gave me a rose
-
 My friend Veronica, whom I also met through hitchhiking, brought me crutches from the city
+
+The EMT who gave me a rose
+<figure>
+  <img
+    src="IMG_6574 (1).jpeg"
+    alt="Rose" />
+</figure>

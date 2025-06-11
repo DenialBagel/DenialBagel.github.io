@@ -3,6 +3,9 @@ title: How I learn Languages
 date: 2025-05-11
 tags:
   - "languages"
+thumbnail: 
+   src: IMG_6234.jpeg 
+   alt: a sign 
 ---
 <h2> Comprehensive input</h2>
 

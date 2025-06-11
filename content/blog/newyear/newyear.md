@@ -6,7 +6,7 @@ tags:
   - "travels"
   - "central america"
 thumbnail:
-  src: "kitchen.jpeg"
+  src: "IMG_5133 (1).jpeg"
   alt: "kitchen"
 ---
 
@@ -17,7 +17,7 @@ To my surprise, getting there involves driving on rocky unpaved mud road for hal
 Worst part of it all? All of which is done in utter darkness.
 
 With each clumsy step through the dense jungle in the chilly air, my worry soars. The sight of Carlos' machete certainly does not help ease my nerves.
-
+<div class="img_container">
 <figure>
   <img
     src="IMG_5145.jpeg"
@@ -33,6 +33,7 @@ With each clumsy step through the dense jungle in the chilly air, my worry soars
   <figcaption>Not the actual house but this is what it looks like</figcaption>
 
 </figure>
+</div>
 With the anxiety that has piled up on the way here, I take a deep breath, fix a smile on my face, think to myself, "Here goes nothing." And enter.
 
 Carlos' family immediately welcomes me in their front yard. I meet Carlos' father and nine siblings. We exchange brief conversations, all my limited Spanish can manage at the time. With each question I can't understand and answer I struggle to give, my anxiety mounts. "This is going to be a long night," I think to myself. Despite their immense hospitality and kindness, I can't shake the feeling that I've made the wrong choice, that I should have stayed at the hostel to celebrate New Year's Eve with other travelers.
@@ -45,18 +46,20 @@ To get myself some fresh air, I go help out in the kitchen. When I first see it,
 
 The aroma of fresh gallo pinto fills the air, attracting stray dogs into the kitchen. Among the group, I notice an unusual presence. It is a little pig! I am convinced she thinks she is just another dog.
 
+<div class="img_container">
 <figure>
   <img
     src="IMG_5137.jpeg"
-    alt="Elephant at sunset" />
+    alt="Kitchen stove" />
 
 </figure>
 <figure>
   <img
     src="pig.png"
-    alt="Elephant at sunset" />
+    alt="animals in the kitchen" />
 
 </figure>
+</div>
 
 Spending a while in the kitchen helped calm my nerves. The sighting of a pig even makes me laugh a bit. I walk back out to the yard, telling myself, “You got this. Just try to converse as much as you can.”
 

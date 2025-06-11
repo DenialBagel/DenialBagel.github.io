@@ -4,6 +4,10 @@ date: 2025-05-11
 tags:
   - "travels"
   - "central america"
+thumbnail:
+    src: 18.jpg
+    alt: Mango tree
+
 ---
 This tree in the front of the apartment complex that I live in reminds me a bit of the mango trees in Central America.
 

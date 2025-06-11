@@ -1,9 +1,11 @@
 ---
-title: Rediscovering the beauty of my native language
+title: My love for Cantonese
 date: 2025-05-10
 tags:
   - "languages"
-thumbnail: /foto/ambulance.jpeg
+thumbnail: 
+  src: IMG_2576 .jpeg
+  alt: 扮公室原子印
 ---
 
 

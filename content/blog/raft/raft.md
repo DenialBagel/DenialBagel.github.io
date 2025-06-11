@@ -3,6 +3,9 @@ title: Raft
 date: 2022-02-15
 tags:
   - "shower thoughts"
+thumbnail:
+   src: IMG_5051 (1).jpeg
+   alt: kayaking
 ---
 
 Sometimes i feel like im

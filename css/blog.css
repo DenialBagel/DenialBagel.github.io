@@ -1,3 +1,7 @@
+::before,
+::after {
+        box-sizing: border-box;
+}
 .blogintro,
 .tag {
     background-color: #C1FBA4;
@@ -13,6 +17,8 @@
 }
 .postinfo{
     text-align: center;
+     flex-basis: 0;
+        flex-grow: 999; 
 }
 body{
         max-width: 900px;
@@ -25,7 +31,7 @@ html {
 }
 
 .date {
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .listtitle {
@@ -49,8 +55,9 @@ html {
 
     .thumbnail {
         overflow: hidden; /* Ensures the image stays within the container */
+        flex-grow:1;
         display: flex; /* Optional: Ensures proper alignment */
-        justify-content: center; /* Centers the image horizontally */
+        justify-content: space-around; /* Centers the image horizontally */
         align-items: center; /* Centers the image vertically */
         max-width: fit-content;
     }
@@ -60,6 +67,8 @@ a{
     text-decoration: none;
 }
 .post {
+    display:flex;
+    flex-wrap:wrap;
     text-decoration: none;
     font-family: "Rokkitt", serif;
     margin-top: 10px;
@@ -86,6 +95,7 @@ a{
 margin-left: auto;
 margin-right:auto;
 }
+
  .hashtag, .leftright, .pagenumber {
     font-family: "Rokkitt", serif;
     display: inline-block;
@@ -128,6 +138,13 @@ footer a {
     text-decoration: underline;
     /* Ensures footer links are underlined */
 }
+.posts {
+    display: grid
+    ;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+}
 @media (min-width: 900px) {
     .thumbnail {
         overflow: hidden; /* Ensures the image stays within the container */
@@ -135,5 +152,5 @@ footer a {
         flex-basis: 15rem;
             flex-direction: row;
     }
-    
+   
 }

@@ -6,6 +6,9 @@ tags:
   - "culture"
   - "español"
 location: El Salvador
+thumbnail:
+   src: 18.jpg
+   alt: mango tree
 ---
 Este árbol enfrente del edificio donde vivo me recuerda los árboles de mango en Centroamérica.
 

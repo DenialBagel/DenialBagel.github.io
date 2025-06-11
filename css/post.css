@@ -54,28 +54,38 @@ body {
     font-optical-sizing: auto;
     font-style: normal;
 }
+.img_container{
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+   flex-wrap: wrap
+}
 img {
-    max-width: 100%; /* Ensures the image scales within its container */
-    height: auto;
-    /* Maintains the aspect ratio */
-    box-shadow: 2px 2px 5px #000;
+    max-width: 100%; /* Ensure the image scales within its container */
+    height: auto; /* Maintain the aspect ratio */
+    box-shadow: 2px 2px 5px #000; /* Optional styling */
     margin-top: 10px;
-margin-bottom: 0px;
+    margin-bottom: 0;
     border-style: solid;
 }
 figure {
+    
     width: 300px;
+    height:auto;
     margin: 0 auto;
     margin-bottom: 0px;
     
+    
 }
 figcaption {
+    max-width: 100%;
     background-color: #d8d6d6;
     color: #121e13;
     padding: 3px;
     text-align: center;
     width: 297px;
     margin-bottom:10px;
+    margin-top: 0;
     box-shadow: 2px 2px 2px #000;
 }
 
@@ -89,7 +99,7 @@ figcaption {
 }
 
 .content {
-    background: #d7f9c7;
+    background: #e7fadd;
     border-color: #8fee50;
     border-style: solid;
     box-shadow: 2px 2px 2px #000;

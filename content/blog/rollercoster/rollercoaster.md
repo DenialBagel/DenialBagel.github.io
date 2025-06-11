@@ -3,6 +3,9 @@ title: Roller coaster
 date: 2022-02-13
 tags:
   - "shower thoughts"
+thumbnail:
+  src: content/blog/rollercoster/nosubir.jpeg
+  alt: no subir
 
 ---
 

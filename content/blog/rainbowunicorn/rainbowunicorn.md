@@ -3,7 +3,9 @@ title: Unicorns & Rainbows
 date: 2025-05-18
 tags:
   - "culture"
-  
+thumbnail:
+  src: "istockphoto-888537292-612x612.jpg"
+  alt: "rainbow and unicorn"
 ---
 My 5-year-old Cantonese student is obsessed with unicorns.
 
