@@ -1,49 +1,3 @@
-::before,
-::after {
-    box-sizing: border-box;
-}
-body{
-    
-    max-width: 900px;
-    margin-left:auto;
-    margin-right:auto;
-
-}
-html {
-    --s: 50px;
-    /* control the size*/
-    --c1: #c1f1fb;
-    --c2: #95ead0;
-    --c3: #eaf6f4;
-
-    --_g: conic-gradient(at 50% 25%, #0000 75%, var(--c1) 0);
-    background:
-        var(--_g), var(--_g) var(--s) var(--s),
-        var(--_g) calc(2*var(--s)) calc(2*var(--s)),
-        var(--_g) calc(3*var(--s)) calc(3*var(--s)),
-        repeating-linear-gradient(135deg, var(--c2) 0 12.5%, var(--c3) 0 25%);
-    background-size: calc(4*var(--s)) calc(4*var(--s))
-}
-
-.workinprogress {
-    font-family: "Rokkitt", serif;
-    background: #f8f9f9;
-    font-size: 30px;
-    padding: 10px, 10px, 10px, 10px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    border-style: double;
-    border-color: #c1f1fb;
-    border-radius: 20px;
-    border-width: 6px;
-}
-.gifwork {
-    width: 400px; /* Set a fixed width */
-    height: auto; 
-margin-left: auto;
-margin-right: auto;
-display:block}
 @font-face {
   font-family: "Freckle Face";
   font-style: normal;
@@ -63,7 +17,8 @@ display:block}
   font-weight: 100 900;
   src: url("/fonts/Rokkitt-Italic-VariableFont_wght.ttf") format('truetype');
 }
-::before,
+
+        ::before,
 ::after {
     box-sizing: border-box;
 }
@@ -88,8 +43,10 @@ header {
 }
 
 h1 {
-    font-size: clamp(40px, 5vw, 14vw);
+    font-size: clamp(40px, 4vw, 14vw);
     margin-bottom: 10px;
+   padding-left:20px;
+    padding-right:20px;
 }
 
 h3 {
@@ -209,6 +166,101 @@ body {
     &[aria-current="page"] {
         background-color: #C1FBA4;
     }
+}
+        ::before,
+::after {
+  box-sizing: border-box;
+}
+
+.link {
+  text-decoration: none;
+}
+
+body {
+
+  background: aliceblue;
+  font-family: "Rokkitt", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  max-width: 900px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
+
+#hero {
+
+  display: block;
+  font-family: "Freckle Face", system-ui;
+  font-style: normal;
+  background-color: #ffd6e0;
+  border: 1px solid #EFAABC;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  margin-top: 20px;
+
+  text-align: center;
+
+  font-weight: bold;
+  box-shadow: 2px 2px 0px #000;
+
+}
+
+.menubar {
+  background-color: #f8f894;
+  border: 1px solid #dede40;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-family: "Rokkitt", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: bold;
+  box-shadow: 2px 2px 0px #000;
+}
+
+.item {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #90F1EF;
+  color: #000;
+  cursor: pointer;
+  width: 80%;
+  height: 60%;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 2px solid #000000;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  border-radius: 10px;
+  box-shadow: 2px 2px 0px #000;
+  transition: box-shadow 0.2s ease, transform 0.1s ease;
+}
+
+
+
+
+
+.pageintro {
+  background-color: #C1FBA4;
+  border: 1px solid #acfd96;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+text-align: left;
+  
+  font-size: 17px;
+  font-weight: bold;
+  padding-left: 5px;
+  box-shadow: 2px 2px 0px #000;
+  font-family: "Rokkitt", serif;
 }
 ::before,
 ::after {

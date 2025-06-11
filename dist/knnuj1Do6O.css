@@ -56,7 +56,8 @@ body {
 }
 img {
     max-width: 100%; /* Ensures the image scales within its container */
-    height: auto;    /* Maintains the aspect ratio */
+    height: auto;
+    /* Maintains the aspect ratio */
     box-shadow: 2px 2px 5px #000;
     margin-top: 10px;
 margin-bottom: 0px;
@@ -161,7 +162,6 @@ figcaption {
     text-align: center;
 }
 body{
-    
         max-width: 900px;
         margin-left:auto;
         margin-right:auto;
@@ -173,7 +173,6 @@ html {
 
 .date {
     font-size: 15px;
-
 }
 
 .listtitle {
@@ -254,7 +253,6 @@ margin-right:auto;
 .hashtag:hover {
     font-family: "Rokkitt", serif;
     display: inline-block;
-
     padding: 7px 17px;
     background-color: #fc98cd;
     color: #000;
@@ -276,6 +274,15 @@ margin-right:auto;
 footer a {
     text-decoration: underline;
     /* Ensures footer links are underlined */
+}
+@media (min-width: 900px) {
+    .thumbnail {
+        overflow: hidden; /* Ensures the image stays within the container */
+        display: flex; /* Optional: Ensures proper alignment */
+        flex-basis: 15rem;
+            flex-direction: row;
+    }
+    
 }
 @font-face {
   font-family: "Freckle Face";
@@ -321,8 +328,10 @@ header {
 }
 
 h1 {
-    font-size: clamp(40px, 5vw, 14vw);
+    font-size: clamp(40px, 4vw, 14vw);
     margin-bottom: 10px;
+   padding-left:20px;
+    padding-right:20px;
 }
 
 h3 {
