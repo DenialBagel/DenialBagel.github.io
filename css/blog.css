@@ -67,6 +67,7 @@ a{
     text-decoration: none;
 }
 .post {
+    min-height:420px;
     display:flex;
     flex-wrap:wrap;
     text-decoration: none;
@@ -81,7 +82,22 @@ a{
     box-shadow: 2px 2px 0px #000;
 
 }
+.post:hover {
+    min-height:420px;
+    display:flex;
+    flex-wrap:wrap;
+    text-decoration: none;
+    font-family: "Rokkitt", serif;
+    margin-top: 10px;
+    background: #fdffd7;
+    color: #222222;
+    border: 2px solid #000000;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 2px 2px 0px #000;
 
+}
 .link .post {
     display: flex;
     flex-direction: column;
@@ -139,8 +155,7 @@ footer a {
     /* Ensures footer links are underlined */
 }
 .posts {
-    display: grid
-    ;
+    display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         grid-column-gap: 20px;
         grid-row-gap: 20px;

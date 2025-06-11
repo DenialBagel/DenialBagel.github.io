@@ -41,9 +41,9 @@ body {
 
 figure {
         display: block;
-        margin-block-start: 1rem;
-        margin-block-end: 1rem;
-        unicode-bidi: isolate;
+        /* margin-block-start: 1rem;
+        margin-block-end: 1rem; */
+        margin: 0;
 }
 
 img {

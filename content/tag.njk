@@ -20,11 +20,11 @@ eleventyComputed:
 <h1 class="tag">
  More of {{ tag }}
 </h1>
-
+<div class="posts">
 {% for post in collections[tag] | reverse %}
   {% include "postslistitem.njk" %}
 {% endfor %}
-
+</div>
 <h2 class="hashtag">
   <a  class="link" href="/blog/index.html">back to all</a>
 </h2>
