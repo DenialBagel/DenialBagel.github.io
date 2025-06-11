@@ -15,7 +15,6 @@
     text-align: center;
 }
 body{
-    
         max-width: 900px;
         margin-left:auto;
         margin-right:auto;
@@ -27,7 +26,6 @@ html {
 
 .date {
     font-size: 15px;
-
 }
 
 .listtitle {
@@ -108,7 +106,6 @@ margin-right:auto;
 .hashtag:hover {
     font-family: "Rokkitt", serif;
     display: inline-block;
-
     padding: 7px 17px;
     background-color: #fc98cd;
     color: #000;
@@ -130,4 +127,13 @@ margin-right:auto;
 footer a {
     text-decoration: underline;
     /* Ensures footer links are underlined */
+}
+@media (min-width: 900px) {
+    .thumbnail {
+        overflow: hidden; /* Ensures the image stays within the container */
+        display: flex; /* Optional: Ensures proper alignment */
+        flex-basis: 15rem;
+            flex-direction: row;
+    }
+    
 }

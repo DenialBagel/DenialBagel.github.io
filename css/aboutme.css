@@ -24,22 +24,17 @@ body {
         display: flex;
         justify-content: space-around;
 }
-
+.powerlifting_parent, .backpacking_parent{
+        flex-direction: row-reverse;
+}
 .aboutme_text, .powerlifting_text, .cooking_text, .backpacking_text {
         background: #d7f9c7;
         border-color: #8fee50;
         border-style: solid;
         box-shadow: 2px 2px 2px #000;
         border-radius: 10px;
-        padding-left: 40px;
-        padding-right: 40px;
-        padding-top: 40px;
-        padding-bottom: 40px;
-        margin-left: 40px;
-        margin-right:40px;
-        margin-top:20px;
-        margin-bottom:20px;
-        --s: 100px;
+      padding: 20px;
+      margin:20px;
         flex-basis: 0;
         flex-grow: 999;   
 }
@@ -48,145 +43,34 @@ figure {
         display: block;
         margin-block-start: 1rem;
         margin-block-end: 1rem;
-        margin-inline-start: 40px;
-        margin-inline-end: 40px;
         unicode-bidi: isolate;
 }
 
 img {
+        border-radius: 10px;
         width: 100%;
         height: auto;
-        /* Maintain aspect ratio */
         display: block;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .imgcontainer {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        flex-grow: 1;
-        justify-content: space-around;
-}
-
-/*
-#firstphoto,
-#thirdphoto {
-        height: 400px;
-        width: 300px;
-        border-style: outset;
-        border-color: blueviolet;
-        padding-bottom: 40px;
-        margin-bottom: 20px;
-}*/
-/*
-.figure {
-       
-
-
-}
-padding: 8px;
-    border: 1.5px solid #37353f;
-    border-radius: 0 0 125px 3px / 3px 85px 5px 55px;
-    background: #fff;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
-    width: 40%;
-.pwl{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        flex-direction: row;
-        height:auto;
-        width:300px;
         box-shadow: 2px 2px 5px #000;
-margin-top:8px;
-margin-left:10px;
-
-        border-style: solid;
-
-}
-.bench, .squat, .cook{
-        margin-left:10px;
-}
-.cook{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        flex-direction: row;
-        height:auto;
-        width:250px;
-        box-shadow: 2px 2px 5px #000;
-margin-top:8px;
-margin-left:auto;
-margin-right:auto;
-
-        border-style: solid;
-}
-.img {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        flex-direction: row;
-        width: 300px;
-        box-shadow: 2px 2px 5px #000;
-        height: 400px;
-        border-style: solid;
-
-
-}
-figure{
-         border: thin #c0c0c0 solid;
- 
-        width: 300px;
-        height: 400px;
-        border-style: solid;
-        box-shadow: 2px 2px 2px #000;
-
-        padding: 5px;
-        display: block;
-        margin-block-start: 1em;
-        margin-block-end: 1em;
-        margin-inline-start: 40px;
-        margin-inline-end: 40px;
-        unicode-bidi: isolate;
-}
-.whoami {
-        background: #d7f9c7;
-        border-color: #8fee50;
-        border-style: solid;
-        box-shadow: 2px 2px 2px #000;
-        border-radius: 10px;
-        padding-left: 20px;
-        padding-right: 20px;
-        --s: 100px;
-    
 }
 
-figcaption {
-        background-color: #d8d6d6;
-        color: #121e13;
-        padding: 3px;
-        text-align: center;
-        width: 297px;
-        box-shadow: 2px 2px 2px #000;
-}
 
-*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* desktop styles abajo de aca*/
 
 @media (min-width: 900px) {

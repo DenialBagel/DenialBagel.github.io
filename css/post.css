@@ -56,7 +56,8 @@ body {
 }
 img {
     max-width: 100%; /* Ensures the image scales within its container */
-    height: auto;    /* Maintains the aspect ratio */
+    height: auto;
+    /* Maintains the aspect ratio */
     box-shadow: 2px 2px 5px #000;
     margin-top: 10px;
 margin-bottom: 0px;
