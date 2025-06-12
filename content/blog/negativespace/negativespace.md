@@ -1,6 +1,6 @@
 ---
 title: Negative Space
-date: 2025-05-30
+date: 2025-06-01
 tags:
   - "shower thoughts"
   - "culture"
