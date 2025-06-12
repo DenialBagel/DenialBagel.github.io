@@ -25,7 +25,7 @@ My teacher instinct told me to correct her, to explain that 'favorite' means cho
 
 Who said it has to be that way?
 
-Just like there are infinite decimal numbers between 0 and 1, there are infinite colors in the visible spectrum. The rainbow gradually shifts from green to blue, hitting every possible shade between.
+Just like there are infinite decimal numbers between 0 and 1, there are infinite colors in the visible spectrum. The rainbow gradually shifts from red to purple, hitting every possible shade between.
 
 At first, I felt melancholy thinking that one day she would realize unicorns aren't real, but then I reconsidered. Like the unicorns, magic exists within her. Just because I think unicorns aren't real doesn't mean they don't exist in her world. My thoughts don't matter, what matters is that unicorns are part of who she is.
 
