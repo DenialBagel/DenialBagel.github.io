@@ -2,88 +2,174 @@
 ::after {
         box-sizing: border-box;
 }
-
-body {
-        background: aliceblue;
-        font-family: "Rokkitt", serif;
-        font-style: normal;
+.blogintro,
+.tag {
+    background-color: #C1FBA4;
+    border: 1px solid #acfd96;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 2px 2px 0px #000;
+    font-family: "Rokkitt", serif;
+}
+.postinfo{
+    text-align: center;
+     flex-basis: 0;
+        flex-grow: 999; 
+}
+body{padding-left:1rem;
+    padding-right:1rem;
         max-width: 900px;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left:auto;
+        margin-right:auto;
+        font-family: "Rokkitt", serif;
+}
+html {
+    background: aliceblue;
 }
 
-.aboutme_parent, .powerlifting_parent, .cooking_parent, .backpacking_parent {
-        display: flex;
-        flex-wrap: wrap;
-        
+.date {
+    font-size: 18px;
 }
 
-
-.aboutme_sidebar, .powerlifting_sidebar, .cooking_sidebar, .backpacking_sidebar {
-        flex-grow: 1;
-        display: flex;
-        justify-content: space-around;
-}
-.powerlifting_parent, .backpacking_parent{
-        flex-direction: row-reverse;
-}
-.aboutme_text, .powerlifting_text, .cooking_text, .backpacking_text {
-        background: #d7f9c7;
-        border-color: #8fee50;
-        border-style: solid;
-        box-shadow: 2px 2px 2px #000;
-        border-radius: 10px;
-      padding: 20px;
-      margin:20px;
-        flex-basis: 0;
-        flex-grow: 999;   
-}
-
-figure {
-        display: block;
-        /* margin-block-start: 1rem;
-        margin-block-end: 1rem; */
-        margin: 0;
-}
-
-img {
-        border-radius: 10px;
-        width: 100%;
-        height: auto;
-        display: block;
-        box-shadow: 2px 2px 5px #000;
+.listtitle {
+    text-decoration: none;
+    background: #DFFFFE;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-left: 8px;
+    border-style: double;
+    border-color: #90dbf1;
+    border-radius: 2px;
+    border-width: 6px;
+    font-family: "Rokkitt", serif;
+    font-size: 20px;
+    text-align: center;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* desktop styles abajo de aca*/
-
-@media (min-width: 900px) {
-        .aboutme_sidebar, .powerlifting_sidebar, .cooking_sidebar, .backpacking_sidebar {
-            flex-basis: 15rem;
-            flex-direction: column;
-        }
-        .aboutme_text, .powerlifting_text, .cooking_text, .backpacking_text {
-                /* padding: 0 0 0 30px;
-                margin:0;       */
-                font-size: 1.24rem;
-        }
+    .thumbnail {
+        overflow: hidden; /* Ensures the image stays within the container */
+        flex-grow:1;
+        display: flex; /* Optional: Ensures proper alignment */
+        justify-content: space-around; /* Centers the image horizontally */
+        align-items: center; /* Centers the image vertically */
+        max-width: fit-content;
     }
+
+
+a{
+    text-decoration: none;
+}
+.post {
+    min-height:420px;
+    display:flex;
+    flex-wrap:wrap;
+    text-decoration: none;
+    font-family: "Rokkitt", serif;
+    margin-top: 10px;
+    background: #bde0fe;
+    color: #222222;
+    border: 2px solid #000000;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 2px 2px 0px #000;
+
+}
+.post:hover {
+    min-height:420px;
+    display:flex;
+    flex-wrap:wrap;
+    text-decoration: none;
+    font-family: "Rokkitt", serif;
+    margin-top: 10px;
+    background: #fdffd7;
+    color: #222222;
+    border: 2px solid #000000;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 2px 2px 0px #000;
+
+}
+.link .post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tagmenu .link {
+    text-decoration: none;
+}
+.leftrightnumber{
+margin-left: auto;
+margin-right:auto;
+}
+
+ .hashtag, .leftright, .pagenumber {
+    font-family: "Rokkitt", serif;
+    display: inline-block;
+    padding: 7px 17px;
+    background-color: #e4c1f9;
+    color: #000;
+    box-shadow: 2px 2px 0px #000;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    border: 2px solid #000000;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    transition: box-shadow 0.2s ease, transform 0.1s ease;
+}
+.hashtag:hover {
+    font-family: "Rokkitt", serif;
+    display: inline-block;
+    padding: 7px 17px;
+    background-color: #fc98cd;
+    color: #000;
+    box-shadow: 2px 2px 0px #000;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    border: 2px solid #000000;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    transition: box-shadow 0.2s ease, transform 0.1s ease;
+
+    &[aria-current="page"] {
+        background-color: #fc98cd;
+    }
+}
+footer a {
+    text-decoration: underline;
+    /* Ensures footer links are underlined */
+}
+.posts {
+    display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+}
+@media (min-width: 900px) {
+    .thumbnail {
+        overflow: hidden; /* Ensures the image stays within the container */
+        display: flex; /* Optional: Ensures proper alignment */
+        flex-basis: 15rem;
+            flex-direction: row;
+    }
+   
+}
 @font-face {
   font-family: "Freckle Face";
   font-style: normal;
@@ -128,18 +214,20 @@ header {
 }
 
 h1 {
-    font-size: clamp(40px, 4vw, 14vw);
+    font-size: clamp(30px, 4vw, 14vw);
     margin-bottom: 10px;
    padding-left:20px;
     padding-right:20px;
 }
 
 h3 {
-    font-size: clamp(30px, 1.875vw, 8vw);
+    font-size: clamp(26px, 1.875vw, 8vw);
 
     margin-top: 0px;
 }
 body{
+    padding-left:1rem;
+        padding-right:1rem;
     font-family: "Rokkitt", serif;
     font-size: 20px;
 }
