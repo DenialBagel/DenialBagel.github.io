@@ -5,7 +5,7 @@ tags:
   - "shower thoughts"
   - "culture"
 thumbnail:
-  src: "hospital.jeg"
+  src: "hospital.jpg"
   alt: "x-ray"
 ---
 One plating skill I learned while working as a line cook was the use of negative space on a plate.
