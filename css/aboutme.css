@@ -4,6 +4,8 @@
 }
 
 body {
+        padding-left:1rem;
+        padding-right:1rem;
         background: aliceblue;
         font-family: "Rokkitt", serif;
         font-style: normal;
@@ -14,6 +16,7 @@ body {
 
 .aboutme_parent, .powerlifting_parent, .cooking_parent, .backpacking_parent {
         display: flex;
+        flex-direction: column;
         flex-wrap: wrap;
         
 }
@@ -23,10 +26,9 @@ body {
         flex-grow: 1;
         display: flex;
         justify-content: space-around;
+
 }
-.powerlifting_parent, .backpacking_parent{
-        flex-direction: row-reverse;
-}
+
 .aboutme_text, .powerlifting_text, .cooking_text, .backpacking_text {
         background: #d7f9c7;
         border-color: #8fee50;
@@ -34,19 +36,22 @@ body {
         box-shadow: 2px 2px 2px #000;
         border-radius: 10px;
       padding: 20px;
-      margin:20px;
+      margin-top: 20px;
+        margin-bottom: 20px;
         flex-basis: 0;
-        flex-grow: 999;   
+        flex-grow: 999; 
+          
 }
 
 figure {
         display: block;
         /* margin-block-start: 1rem;
         margin-block-end: 1rem; */
-        margin: 0;
+        margin: 10px;
 }
 
 img {
+        
         border-radius: 10px;
         width: 100%;
         height: auto;
@@ -77,11 +82,20 @@ img {
         .aboutme_sidebar, .powerlifting_sidebar, .cooking_sidebar, .backpacking_sidebar {
             flex-basis: 15rem;
             flex-direction: column;
+            margin:10px;
         }
         .aboutme_text, .powerlifting_text, .cooking_text, .backpacking_text {
                 /* padding: 0 0 0 30px;
                 margin:0;       */
                 font-size: 1.24rem;
+
+        }
+        .aboutme_parent, .powerlifting_parent, .cooking_parent, .backpacking_parent {
+                flex-direction: row;
+                justify-content: space-between;
+        }
+        .powerlifting_parent, .backpacking_parent{
+                flex-direction: row-reverse;
         }
     }
 

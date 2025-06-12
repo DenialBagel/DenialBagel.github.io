@@ -9,6 +9,8 @@
 
 body {
 
+  padding-left:1rem;
+        padding-right:1rem;
   background: aliceblue;
   font-family: "Rokkitt", serif;
   font-optical-sizing: auto;
@@ -98,7 +100,7 @@ body {
   border: 2px solid #000000;
   transition: background-color 0.3s ease, transform 0.2s ease;
   border-radius: 10px;
-  box-shadow: 2px 2px 0px #000;
+  box-shadow: 4px 4px 2px #000;
   transition: box-shadow 0.2s ease, transform 0.1s ease;
 }
 

@@ -23,18 +23,20 @@ header {
 }
 
 h1 {
-    font-size: clamp(40px, 4vw, 14vw);
+    font-size: clamp(30px, 4vw, 14vw);
     margin-bottom: 10px;
    padding-left:20px;
     padding-right:20px;
 }
 
 h3 {
-    font-size: clamp(30px, 1.875vw, 8vw);
+    font-size: clamp(26px, 1.875vw, 8vw);
 
     margin-top: 0px;
 }
 body{
+    padding-left:1rem;
+        padding-right:1rem;
     font-family: "Rokkitt", serif;
     font-size: 20px;
 }
