@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npx @11ty/eleventy --serve",
     "build": "npx @11ty/eleventy",
-    "build-ghpages": "npx @11ty/eleventy --pathprefix=/denialbagel.github.io/"
+    "build-ghpages": "npx @11ty/eleventy"
   },
   "repository": {
     "type": "git",
