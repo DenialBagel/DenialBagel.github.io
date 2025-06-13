@@ -16,7 +16,7 @@ Not only does it provide customers with a chance to preview books before buying,
 
 However, yesterday's visit to the bookstore made me wonder if that's still the case.
 
-When I entered the reading corner, I saw three people on the benches, two ladies and one man. I was curious about what they were reading, but then I quickly realized everyone was on their phones. None of them had a book in hand or even nearby.
+When I entered the reading corner, I saw three people on the benches, two ladies and one man. I was curious about what they were reading, but then I quickly realized everyone was on their phones. None of them had a book in hand.
 
 <figure>
   <img
@@ -37,8 +37,8 @@ My book to e-book ratio is roughly 20:80. Being home most of the time recovering
 
 I appreciate bookstores for their atmosphere, presence, and the comforting sight of colorful books lining the shelves (having to tilt my head to read the spines is my only complaint). Browsing the shelves in a bookstore feels worlds apart from selecting e-books on Amazon's bookshelf.
 
-However, I own an e-reader because, given how many books I read and my limited space, it's simply not practical to buy physical books exclusively. Though I still keep some physical books, I've sold most of them for a low price (list of books I am selling for 10HKD each)
+However, I own an e-reader because given how many books I read and my limited space, it's simply not practical to buy physical books exclusively. Though I still keep some physical books, I've sold most of them for a low price.
 
-Cost is obviously a big concern for most of us budget-conscious nerds. Physical books typically cost more than e-books. Yes, we have to factor in the cost of the device itself, but depending on how much you read, that expense often balances out quickly. For example, I got my Kindle second-hand for 500HKD, about 65USD.
+Cost is obviously a big concern for most of us broke nerds. Physical books typically cost more than e-books. Yes, we have to factor in the cost of the device itself, but depending on how much you read, that expense often balances out quickly. For example, I got my Kindle second-hand for 500HKD, about 65USD.
 
-Given the significant advantages of e-books over physical books, it's understandable that traditional books are becoming less popular. Yet above all, my hope for books, such a precious commodity in our world, is that people never stop reading them, in whatever form they prefer.
+While e-books seemingly have much more advantage over physical books, it's understandable that traditional books are becoming less popular. However, my hope for books, such a precious commodity in our world, is that people never stop reading them, in whatever form they prefer.

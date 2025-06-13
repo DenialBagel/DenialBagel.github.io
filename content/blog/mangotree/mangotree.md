@@ -17,13 +17,13 @@ Growing up in the megacity of Hong Kong, picking fruits from trees to eat are ta
 
 They taught me so many different ways to pick mangos, and they are masters at it! Sometimes they use little rocks to hit the mangos from high up, sometimes with a stick or a branch.
 
-Over time, I too started growing a liking to picking mangos. I became good at identifying mango trees, and more often than not whenever I see one I could not hold back my urge to savor one.
+Over time, I too started growing a liking to picking mangos. I became good at spotting mango trees, and more often than not whenever I see one I could not hold back my urge to savor one.
 
 I remember sitting at the back of my friend’s motorcycle, eyes glued to the side of the road to spot mango trees. Whenever I spotted one, I would tap on his shoulder to ask him to stop, and I would pick a few at each stop. By the time we get back, we would have a dozen green mangos to be the starter of our dinner. 
 
-In my first few weeks back in Hong Kong, whenever I walked past trees, some instinct inside me still yearned for mangos. As if the urge to identify mango trees had still yet to be tamed.  The tangy sweet-and-sour taste would spring up in my imagination. Not just in my taste buds, but deep in my heart.
+In my first few weeks back in Hong Kong, whenever I walked past trees, my mind still yearned for mangos. As if the urge to identify mango trees had still yet to be tamed.  The memory of the tangy sweet-and-sour taste would pop up. Not just in my taste buds, but deep in my heart.
 
-Then I began to wonder: How did something so natural, once fundamental and instinctive for human survival throughout generations, become such a taboo in our modern culture? I understand that our bodies have evolved, making some ancestral practices potentially harmful today. But I'm not talking about raw chicken here. I'm simply talking about fruits on trees, the same fruits sold in markets at ridiculous prices. 
+I also began to wonder: How did picking fruits off tress, something so natural, once fundamental and instinctive for human survival throughout generations, become such a taboo in our modern culture? I understand that our bodies have evolved, making some ancestral practices potentially harmful today. But I'm not talking about raw chicken here. I'm simply talking about fruits on trees, the same fruits sold in markets at ridiculous prices. 
 
 One of the many recurring thoughts in my brief time in Central America is: It’s fine.
 
