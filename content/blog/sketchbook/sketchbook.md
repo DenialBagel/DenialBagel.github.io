@@ -10,7 +10,7 @@ thumbnail:
 
 A very close friend of mine, who’s also a backpacker, have some stuff stored in my home in Hong Kong.
 
-He loves to paint while traveling. He captures a variety of subjects. Landscapes, shops, street views,people. He is a genius for capturing the essence of places.
+He loves to paint while traveling. Landscapes, shops, street views,people. He is a genius for capturing the essence of places.
 
 I have one of his sketchbooks on the display corner of my bedroom, turned to a new page every once in a while.
 <figure>
